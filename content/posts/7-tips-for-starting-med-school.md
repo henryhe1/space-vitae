@@ -3,7 +3,7 @@ title: "7 Tips for Starting Med School"
 date: 2018-10-20T02:41:35-04:00
 draft: false
 slug: "7-tips-for-starting-med-school"
-series: [ "listicle", "med_school" ]
+series: [ "listicle", "medicine" ]
 tags: [ "advice"]
 description: "Starting med school has been simultaneously the most exciting and the most overwhelming time of my life. It’s only been a month, and I already feel a lot of the responsibilities of “being a doctor”..."
 ---

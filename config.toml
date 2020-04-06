@@ -1,4 +1,4 @@
-baseURL = "http://henryhe.me/space"
+baseURL = "http://henryhe.me/"
 languageCode = "en-us"
 title = "s p a c e"
 theme = "hugo-vitae"
@@ -27,7 +27,7 @@ disqusShortname = "spaceblog-1"
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
 
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 
 # Nav.
 [[menu.main]]
@@ -60,12 +60,38 @@ name = "music"
 url = "/music"
 weight = 6
 
-[[params.social]]
-name = "Github"
-icon = "fab fa-github"
-url = "https://github.com/dataCobra/hugo-vitae"
+
 
 [[params.social]]
-name = "RSS"
-icon = "fas fa-rss"
-url = "/index.xml"
+name = "IG"
+icon = "fab fa-instagram"
+url = "https://instagram.com/henryhe_"
+
+[[params.social]]
+name = "SoundCloud"
+icon = "fab fa-soundcloud"
+url = "https://soundcloud.com/staraniz"
+
+[[params.social]]
+name = "Medium"
+icon = "fab fa-medium"
+url = "https://medium.com/@henryhe_"
+
+# [[params.social]]
+# name = "Github"
+# icon = "fab fa-github"
+# url = "https://github.com/henryhe1"
+
+[[params.social]]
+name = "Twitter"
+icon = "fab fa-twitter"
+url = "https://twitter.com/henryhe_"
+
+[[params.social]]
+name = "Main Website"
+icon = "fas fa-home"
+url = "https://henryhe.me"
+
+
+
+
