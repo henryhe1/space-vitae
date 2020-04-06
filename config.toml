@@ -1,0 +1,71 @@
+baseURL = "http://henryhe.me/space"
+languageCode = "en-us"
+title = "s p a c e"
+theme = "hugo-vitae"
+paginate = 5
+
+copyright = "© Henry He 2020"
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+enableEmoji = true
+
+googleAnalytics = "UA-127793104-1"
+disqusShortname = "spaceblog-1"
+
+[taxonomies]
+	tag = "tags"
+	series = "series"
+
+[params]
+	subtitle = "a blog"
+
+	# Optional 80x80 avatar image.
+	avatar = "/img/vitae.jpg"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+
+# Nav.
+[[menu.main]]
+name = "home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "all posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "series"
+url = "/series"
+weight = 5
+
+[[menu.main]]
+name = "music"
+url = "/music"
+weight = 6
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/dataCobra/hugo-vitae"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
