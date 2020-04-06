@@ -55,10 +55,10 @@ name = "series"
 url = "/series"
 weight = 5
 
-[[menu.main]]
-name = "music"
-url = "/music"
-weight = 6
+# [[menu.main]]
+# name = "music"
+# url = "/music"
+# weight = 6
 
 
 
