@@ -1,4 +1,4 @@
-baseURL = "http://henryhe.me/"
+baseURL = "https://henryhe.me/"
 languageCode = "en-us"
 title = "s p a c e"
 theme = "hugo-vitae"
