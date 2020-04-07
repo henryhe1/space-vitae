@@ -7,6 +7,6 @@ a {
     font-family: 'Roboto Bold';
     font-display: auto;
     font-style:  normal;
-    font-weight: 700;
+    font-weight: 900;
     src: local('Roboto Bold'), url('../webfonts/Roboto-Bold.ttf') format('ttf');
 }
