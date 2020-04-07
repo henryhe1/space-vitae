@@ -17,7 +17,7 @@ The font you see is [Roboto](https://fonts.google.com/specimen/Roboto).
 If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov of 2015 after I got this (awesome) domain free for 1 year by attending my university Hackathon. 
 
 
-### main site / contact
+### contact
 If you'd like to reach out at all, please feel free to send me a message: hello.henryhe[at]gmail.com. My IG DM's are open as well.
 
 <div style="color:red; text-align: center; padding: 5%;"> &hearts; </div>
