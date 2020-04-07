@@ -1,6 +1,5 @@
 ---
 title: "about"
-date: "2018-10-19"
 type: "page"
 ---
 
@@ -11,13 +10,16 @@ I just started medical school in Canada, so many of the posts will probably be m
 
 ### tech stuff
 
-This blog is built on [Hugo](https://gohugo.io/), an open-source static site generator written in the programminng language Go. I chose an amazing theme called [Hugo Vitae](https://github.com/dataCobra/hugo-vitae), because of its simplicity and focus on content. The code for this website can be found [here](https://github.com/henryhe1/space-vitae).
+This blog is built on [Hugo](https://gohugo.io/), an open-source static site generator written in the programminng language Go. I chose a theme called [Hugo Vitae](https://github.com/dataCobra/hugo-vitae), because of its simplicity and focus on content. The code for this website can be found [here](https://github.com/henryhe1/space-vitae).
 
 The font you see is [Roboto](https://fonts.google.com/specimen/Roboto).
+
+If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov of 2015 after I got this (awesome) domain free for 1 year by attending my university Hackathon. 
 
 
 ### main site / contact
 If you'd like to reach out at all, please feel free to send me a message: hello.henryhe[at]gmail.com. My IG DM's are open as well.
 
-
 <div style="color:red; text-align: center; padding: 5%;"> &hearts; </div>
+
+

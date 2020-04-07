@@ -1,13 +1,11 @@
 ---
 title: "music"
-date: "2018-12-15"
-type: "page"
-draft: true
+draft: false
 ---
 
 So I like making music. I play piano, guitar, and sing, and I make my own beats too. I don't have the greatest voice nor the greatest musical talent, but I love making covers of my favourite songs, because it's a chance to experience them on a deeper level. I want to put out some originals eventually as well. 
 
-Some of my biggest influences are Daniel Caesar, David Choi, Khalil Fong, Rex Orange County, Post Malone, John Mayer, Chance the Rapper, Still Woozy, Radiohead, Queen, Fun, and Marianas Trench, in no particular order. I'm absolutely terrible at lyrics and I tend to understand melodies better. If you are interested in collabs or have a production request, shoot me a message. If you're a singer, I usually put up instrumental versions of the covers on Soundcloud as well, just tag my socials so I can hear it too!
+Some of my biggest influences are Daniel Caesar, David Choi, Khalil Fong, Rex Orange County, Post Malone, John Mayer, Chance the Rapper, Still Woozy, Radiohead, Queen, Fun, and Marianas Trench, in no particular order. I'm absolutely terrible at lyrics and I tend to understand melodies better. If you are interested in collabs, shoot me a message. If you're a singer, I usually put up instrumental versions of the covers on Soundcloud as well, just tag my socials so I can hear it too!
 
 I still have a lot to learn, but here are 6 of my proudest covers: 
 
