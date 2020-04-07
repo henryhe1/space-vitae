@@ -16,7 +16,7 @@ disqusShortname = "spaceblog-1"
 
 [markup.goldmark.renderer]
 	unsafe = true
-	
+
 [taxonomies]
 	tag = "tags"
 	series = "series"
@@ -25,7 +25,7 @@ disqusShortname = "spaceblog-1"
 	subtitle = "a blog"
 
 	# Optional 80x80 avatar image.
-	avatar = "/img/vitae.jpg"
+	avatar = "/img/henry.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
