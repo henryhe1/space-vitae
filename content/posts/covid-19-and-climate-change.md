@@ -105,7 +105,7 @@ Full infographic: [https://www.thelancet.com/infographics/planetary-health](http
 2. Research clearly shows positive health effects of nature.
 3. Human health is very much integrated and dependent on environmental health. If we care about human health, then we must care about the health of the environment as well.
 
-One of the stated goals of the webinar was _“How can we talk about climate change during a global pandemic without seeming tone deaf or opportunistic?”_. I don’t know the answer to that. I can say I care about the environment as much as I want without doing anything. Hopefully, this summary and the links help to increase awareness—I know writing it has taught me a lot. But I’ll end with a quote from Dr. Hayward near the end of the Q and A session: 
+One of the stated goals of the webinar was _“How can we talk about climate change during a global pandemic without seeming tone deaf or opportunistic?”_. I don’t know the answer to that. I can say I care about the environment as much as I want without doing anything. Hopefully, this summary and the links help to increase awareness—I know writing it has taught me a lot. But I’ll end with a quote from Dr. Hayward near the end of the Q and A session, regarding the zoonotic transmission of the novel coronavirus:
 
 > COVID-19 is **exactly** an example of why we need to care about the interface between human society and nature.
 
