@@ -14,7 +14,7 @@ This blog is built on [Hugo](https://gohugo.io/), an open-source static site gen
 
 The font you see is [Roboto](https://fonts.google.com/specimen/Roboto).
 
-If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov of 2015 after I got this (awesome) domain free for 1 year by attending my university Hackathon. 
+If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov 2015 after I got this (awesome) domain free for 1 year by attending my university hackathon. 
 
 
 ### contact
