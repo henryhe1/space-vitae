@@ -3,10 +3,22 @@ a {
 
 }
 
+/*b, strong {
+	font-weight: 700;
+}*/
+
 @font-face {
-    font-family: 'Roboto Bold';
+    font-family: 'OpenSans-Regular';
     font-display: auto;
     font-style:  normal;
-    font-weight: 900;
-    src: local('Roboto Bold'), url('../webfonts/Roboto-Bold.ttf') format('ttf');
+    font-weight: 400;
+    src: local('OpenSans-Regular'), url('../webfonts/OpenSans-Regular.ttf') format('ttf');
+}
+
+body {
+    font-family: "OpenSans-Regular", sans-serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6em;
+    font-size: 18px;
 }
