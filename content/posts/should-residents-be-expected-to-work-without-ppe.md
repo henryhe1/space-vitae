@@ -6,6 +6,8 @@ description: "I’ve been thinking about this deeply for the past couple of days
 ---
 _Estimated read time: 18min._
 
+_This should go without saying, but the following opinions are mine and mine alone._
+
 <br>
 
 ![alt_text](/img/residentsPPE/image1.png "image_tooltip")
@@ -48,15 +50,22 @@ Conclusions thus far:
 
 These are the facts. This is the situation. But you already knew this from the news. What really prompted this post was this [Reddit post](https://www.reddit.com/r/Residency/comments/fvr94q/ucsf_fresno_sent_this_out_to_their_im_residents/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) in r/residency. 
 
-<br>
-
-![alt_text](/img/residentsPPE/image2.png "image_tooltip")
+**Update**: this segment ran on [CBS this morning](https://www.cbsnews.com/video/medical-community-battles-pandemic-despite-mounting-fear-and-deaths/) (April 10), and is a much stronger representation of the coercion and exploitation of residents. I will mainly comment on this video, however, it was the reddit post above that originally triggered my desire to write this post. Watch to see the comments made by Dr. Laura Forese, CEO of NY Presbyterian Hospital—one of the largest in the city—to the medical staff.
 
 <br>
 
-It’s a screenshot of an email sent to the internal medicine residents at UCSF Fresno. It was posted on Apr 6 by a self-identified MS3 (third year medical student) who was sent the screenshot from his sister who has former classmates there. Anonymity is an inherent part of the Reddit platform, so I recognized that unfortunately this information is unverified. However, UCSF Fresno has made a [public response](https://twitter.com/UCSFFresno/status/1247283172192268295) regarding this email and **did not deny its existence or accuracy** (they state the wording was misinterpreted but did not clarify their intended context).
+<!-- <iframe src="https://www.cbsnews.com/video/medical-community-battles-pandemic-despite-mounting-fear-and-deaths/" id="cbsNewsVideo" allowfullscreen allow="fullscreen" frameborder="0" width="620" height="349" autoplay=false style="display:block; margin-left:auto; margin-right:auto;"></iframe>
+ -->
 
-Not sure what’s the problem? Let me paraphrase for you: if a patient you are caring for is dying, no matter if you don’t have PPE and this is outside of the standard of practice even during a pandemic, no matter if you are immunocompromised or have an infant or elderly grandmother at home, no matter if doing so will put your other patients at risk, **you are still responsible for treating that patient**. Although not directly stated, the message implies that this mentality is expected of all residents and faculty. They mention a “temporary leave of absence”, however there is a sense in this context that taking that option would be looked down upon, seen as “abandoning the patient and team”, and could have potential consequences. 
+<video width="620" height="349" controls style="display:block; margin-left:auto; margin-right:auto;">
+    <source src= "/img/residentsPPE/cbsVideo.mp4">
+</video>
+
+<br>
+
+"Please, for you and your families, stop sending emails, cards and letters saying that we are disrespecting you," she says in response to staff concerns about workplace safety in the setting of limited PPE. "It raises for us **whether you in fact want to keep working for New York Presbyterian**"
+
+Not sure what’s the problem? She is saying that **even without PPE, even at the increased risk of losing their lives**, residents and staff must continue treating COVID-19 patients or **risk punishment, including losing their job**. Wow.
 
 A bit of background: residents are physicians in training who have graduated from medical school and obtained their MD (or DO/MBBS depending on where they trained). Despite their medical degree, they cannot practice medicine independently until they have successfully completed a residency program. Residents actually run most of the services in a hospital. Residents are typically responsible for interviewing and examining patients, ordering tests and treatments, and completing paperwork all under the supervision of an attending or staff doctor. The amount of supervision required  is proportionate to their level of training. Consequently, residents work the most hours in the hospital for the [least amount of pay per hour](https://money.com/medical-resident-pay-match-day/) (which works out to be about $13/hr in the States—the[ living wage in the US is closer to $16.07](https://livingwage.mit.edu/articles/31-bare-facts-about-the-living-wage-in-america-2017-2018)), all while shouldering hundreds of thousands of dollars in student loans from undergrad and medical school. Due to their requirement to complete residency, or else **render all of their career investment thus far worthless**, residents have very little power in the medical establishment. And in the US, they largely do not have a union or advocacy body (note: there does seem to be an organization called [CIR](https://www.cirseiu.org/) that represents 17,000 residents and fellows, however there are around [130,000 total active residents](https://www.aamc.org/data-reports/students-residents/interactive-data/table-b3-number-active-residents-type-medical-school-gme-specialty-and-sex) across the country. I wasn’t able to find any more information on the total number of unionized residents, but from [other Reddit posts ](https://www.reddit.com/r/Residency/comments/635hc1/unionized_residents_whats_that_like/)it seems that some institutions have unionized while the majority have not). In fact, when three residents tried to get together and advocate for better working conditions through the justice system, they were shut down. The class-action antitrust lawsuit _[Jung v. Association of American Medical Colleges](https://en.wikipedia.org/wiki/Jung_v._Association_of_American_Medical_Colleges)_ was filed in 2002, and was eventually dismissed before it got to court when Congress passed a rider that exempted residency programs from federal antitrust laws. 
 
@@ -202,7 +211,7 @@ Although still developing, this is very reassuring to me and makes me feel thank
 ### Conclusions
 
 
-The shortage of PPE is very real and has serious implications. Solutions have been proposed from placing more federal bulk purchases to ‘retooling’ companies, to reusing masks. There are numerous initiatives dedicated to [collecting PPE donations](https://getusppe.org/#) from the community for frontline workers, and innovative efforts such as [3D printing face shields](https://www.3dppegtha.ca/). But exploiting residents to put their lives at risk without proper PPE is not one of them. I hope the residents in the United States are able to come together and advocate for their rights. I hope the institutions in Canada will not resort to such measures. I hope. 
+The shortage of PPE is very real and has serious implications. Solutions have been proposed from placing more federal bulk purchases to ‘retooling’ companies, to reusing masks. There are numerous initiatives dedicated to [collecting PPE donations](https://getusppe.org/#) from the community for frontline workers, and innovative efforts such as [3D printing face shields](https://www.3dppegtha.ca/). But exploiting and threatening residents to put their lives at risk without proper PPE is not one of them. I hope the residents in the United States are able to come together and advocate for their rights. I hope the institutions in Canada will not resort to such measures. I hope. 
 
 Thank you for the friends and mentors who have helped proofread, critique, and contribute to this post. It has been a journey and I appreciate your support :blush:. I think we all learned something valuable about the medical system, the law, and ourselves. If you read this far and have a differing opinion from mine, please engage in this important discussion in the comments.  
 
