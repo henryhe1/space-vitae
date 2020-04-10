@@ -1,7 +1,7 @@
 ---
 title: "Should Residents Be Expected to Work Without PPE?"
 date: 2020-04-10T10:24:45-04:00
-draft: true
+draft: false
 description: "I’ve been thinking about this deeply for the past couple of days. As the number of confirmed COVID-19 cases worldwide continues to climb toward 1.5 million..."
 ---
 _Estimated read time: 18min._
