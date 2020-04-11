@@ -4,7 +4,10 @@ date: 2020-04-10T10:24:45-04:00
 draft: false
 description: "I’ve been thinking about this deeply for the past couple of days. As the number of confirmed COVID-19 cases worldwide continues to climb toward 1.5 million..."
 tags: [ethics, medicine]
+images: ["/img/residentsPPE/ppe-cover.jpg"]
+
 ---
+
 _Estimated read time: 18min._
 
 _This should go without saying, but the following opinions are mine and mine alone._

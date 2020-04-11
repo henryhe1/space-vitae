@@ -3,6 +3,7 @@ title: "COVID-19 and Climate Change"
 date: 2020-04-06
 description: "I attended an online webinar the other day organized by the Canadian Association of Physicians for the Environment (CAPE). The session was titled “COVID-19 and climate change - Where do we go from here?”... "
 tags: [medicine, data] 
+images: ["/img/covidEnvironment/greenspaceToronto.png"]
 
 ---
 

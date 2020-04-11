@@ -23,6 +23,10 @@ disqusShortname = "spaceblog-1"
 
 [params]
 	subtitle = "a blog"
+	author = "Henry He"
+	github = "https://github.com/henryhe1"
+	twitter = "@henryhe_"
+	sitename = "s p a c e"
 
 	# Optional 80x80 avatar image.
 	avatar = "/img/henry.png"
