@@ -113,3 +113,14 @@ One of the stated goals of the webinar was _“How can we talk about climate cha
 <br>
 <br>
 
+**Addendum (April 14).** Some of my classmates sent me some additional articles related to COVID and climate change. I didn't go through them in detail, but here they are with a one-liner:
+1. [Exposure to air pollution and COVID-19 mortality in the United States.](https://projects.iq.harvard.edu/covid-pm). This is a neat study from Harvard that looked at pollution data (measured in average PM2.5 levels, which is basically a measure of fine particulate matter with a diameter of less than 2.5 microns) and the COVID-19 death rate across the country. They fonud that an increase of 1 ug/m^3 in PM2.5 level is associated with a 15% increase in the COVID-19 death rate. You can't get a more direct connection between COVID and climate change.
+2. [Positive Effects of Nature on Cognitive Performance](https://www.frontiersin.org/articles/10.3389/fpsyg.2019.01413/full). Another use of the backwards digit span task, this time as a measure of cognition in general, and on adults. Results showed significant beneficial effects of nature compared to urban environments. Awesome.
+
+<br>
+<br>
+
+
+
+
+
