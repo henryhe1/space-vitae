@@ -195,7 +195,7 @@ The case-fatality rates for 20-40 year olds are roughly 0.2%, based on a March 3
 <br>
 
 
-In summary, this post is **by no means disrespecting or criticizing the brave volunteers** that are choosing to put their lives at risk by helping out however they can. It’s a difficult personal decision that I think everyone needs to make depending on your own personal values. Even with PPE, there is still a risk of contracting COVID-19 as a physician. But without the proper protection, no one should be _expected_ to place their lives at preventable risk. Yes, the lives of the patients are obviously important, but why is the resident’s life worth any less? 
+In summary, this post is **by no means disrespecting or criticizing the brave volunteers** that are choosing to put their lives at risk by helping out however they can—they deserve 100% of the praise and gratitude they are getting for their service. It’s a difficult personal decision that I think everyone needs to make depending on your own personal values. Even with PPE, there is still a risk of contracting COVID-19 as a physician. But without the proper protection, no one should be _expected_ to place their lives at preventable risk. Yes, the lives of the patients are obviously important, but why is the resident’s life worth any less? 
 
 ### What this means for residents in Canada
 
@@ -218,6 +218,38 @@ Although still developing, this is very reassuring to me and makes me feel thank
 The shortage of PPE is very real and has serious implications. Solutions have been proposed from placing more federal bulk purchases to ‘retooling’ companies, to reusing masks. There are numerous initiatives dedicated to [collecting PPE donations](https://getusppe.org/#) from the community for frontline workers, and innovative efforts such as [3D printing face shields](https://www.3dppegtha.ca/). But exploiting and threatening residents to put their lives at risk without proper PPE is not one of them. I hope the residents in the United States are able to come together and advocate for their rights. I hope the institutions in Canada will not resort to such measures. I hope. 
 
 Thank you for the friends and mentors who have helped proofread, critique, and contribute to this post. It has been a journey and I appreciate your support :blush:. I think we all learned something valuable about the medical system, the law, and ourselves. If you read this far and have a differing opinion from mine, please engage in this important discussion in the comments.  
+
+<br>
+<br>
+<br>
+<div style="text-align: center;"> — </div>
+<br>
+<br>
+<br>
+
+**Addendum #1 (April 14)**. This past weekend I attended a virtual forum hosted by the Ontario Medical Students' Association entitled "Responding to COVID-19: How Can We Help", where I had to chance to  hear OMA president, Dr. Sohail Gandhi, speak to the question of whether residents and staff would be expected to work without PPE. I am paraphrasing because I wasn't able to transcibe exactly what he said:
+
+> Historically, physicians had to go into dangerous situations. A hundred years ago with the Spanish Flu, leprosy, the plague—they had to go without protection [Note from author: I tried to look this up but couldn't find anything confirming this, please let me know if you can]. Doctors used to have this "superhuman attitude" that they can survive anything. Things are different now. Asymptomatic COVID cases are putting other patients at risk. 
+>
+> **We cannot act as if not having adequate PPE is normal or okay.**
+>
+> It is important to advocate for the safety of healthcare workers on the frontlines. It's also a good idea for you medical students to reflect and keep track of your emotions during this time, and note how health leaders are responding to this crisis.
+
+**Addendum #2 (April 14)**. One of the best (most up-to-date and accurate) medicine podcasts is Emergency Medicine Cases, run by Dr. Anton Helman from North York General in Toronto. It's a fantastic way for medical students (please see Addendum #3) to get a feel for what it's really like on the frontlines here in Canada. They have been amazing at churning out a series of episodes on COVID featuring emergency physicians, infectious disease specialists, and critical care docs as guest speakers, packed with a bunch of both clinical and life pearls. One episode talked about PPE and the "Protected Code Blue" ([the shownotes here](https://emergencymedicinecases.com/covid-19-ppe/)). It's a little more technical, but starts off with this pearl:
+
+> Transmission of COVID-19 is approximately 3 x more likely to occur at the ED than elsewhere and certain procedures like intubation create the highest risk. You need to learn about PPE, and how to use it properly. Yours and the lives of others depends on it.
+
+They then go into great detail about recommendations for each piece of PPE, donning and doffing (putting on and taking off) PPE sequence, and strategies for PPE conservation. I learned that for regarding N95 extended use (wearing the same mask for repeated patient encounters __without__ removing) and reuse (wearing the same mask for repeated patient encounters __and__ removing), the [Centres of Disease Control](https://www.cdc.gov/niosh/topics/hcwcontrols/recommendedguidanceextuse.html) recommend a maximum of 8 hours and 5 uses per device, respectively. The CDC also has an article on [mask decontamination](https://www.cdc.gov/coronavirus/2019-ncov/hcp/ppe-strategy/decontamination-reuse-respirators.html) with UV irradiation, vaporous hydrogen peroxide, and moist heat, however they recognize that there are no current data supporting the effectiveness of these methods against SARS-CoV-2, and suggest that they should not be worn in the presence of aerosol-generating procedures. It is important to recognize the brainpower going into conservation strategies, because it's these that would ultimately prevent any issues of unsafe medical practice.
+
+Some other takeaway points from the podcast:
+- The risk of transmission is related to the viral load and duration of exposure. The highest risk to staff is during intubation. 
+- PPE recommendations change constantly, and vary between different regions and countries.
+- The donning/doffing sequence is important to reduce risk of exposure. Institutions have designated safety officers or "dofficers" (I love that) who partner with each HCW to monitor any breaches/contamination. 
+- In a "Protected Code Blue" (emergency cardiac arrest in a patient with a suspected infectious disease), the **first step** is to ensure airborn PPE for all providers **before** initiating any life support measures.
+- HCW safety is at the forefront of what emergency physicians are thinking about on the front lines. I know I wrote specifically about doctors for most of this post, but really this applies to any healthcare worker working with patients.
+
+**Addendum #3 (April 14)**. Again, all these opinions are from me, a medical student currently safe at home participating in an improvised online curriculum. I recognize that I do not have first-hand experience of what is it like to be working at the hospital in this pandemic. If you have any insights that you feel my arguments are lacking in, please do reach out to me because I would love to hear from you. That being said, I have spent the last 4 and a half months rotating through different departments at different hospitals in Canada. I've met and worked with many staff and resident physicians, as well as many patients. As a (hopefully) future health care professional, I think it's fair for me to have an opinion about resident rights and safety, an issue that will directly affect me in the near future. Hopefully that doesn't take away from the logic of the arguments presented in this piece.
+
 
 <br>
 <br>
