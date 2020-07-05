@@ -1,0 +1,8 @@
+hugo serve -D
+hugo -d ../henryhe1.github.io/
+cd ../henryhe1.github.io/
+git status 
+git add .
+git commit -m "msg"
+git push
+

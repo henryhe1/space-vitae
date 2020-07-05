@@ -10,11 +10,11 @@ I am a second year medical student in Canada, so many of the posts will probably
 
 ### tech stuff
 
-This blog is built on [Hugo](https://gohugo.io/), an open-source static site generator written in the programminng language Go. I chose a theme called [Hugo Vitae](https://github.com/dataCobra/hugo-vitae), because of its simplicity and focus on content. The code for this website can be found [here](https://github.com/henryhe1/space-vitae).
+This blog is built on [Hugo](https://gohugo.io/), an open-source static site generator written in the programming language Go. I chose a theme called [Hugo Vitae](https://github.com/dataCobra/hugo-vitae), because of its simplicity and focus on content. The code for this website can be found [here](https://github.com/henryhe1/space-vitae).
 
-The font you see is [Open Sans](https://fonts.google.com/specimen/Open+Sans).
+The font you are reading is [Open Sans](https://fonts.google.com/specimen/Open+Sans).
 
-If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov 2015 after I got this (awesome) domain free for 1 year by attending my university hackathon. 
+If you're curious, this was what my [old website](https://henryhe.me/old-website) looked like. I created it in Nov 2015 after I got this (awesome) domain name free for 1 year by attending my university hackathon. 
 
 
 ### contact

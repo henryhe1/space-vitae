@@ -1,0 +1,19 @@
+{
+  "name": "space-vitae",
+  "version": "1.0.0",
+  "main": "medium-to-markdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryhe1/space-vitae.git"
+  },
+  "author": "henry-he",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryhe1/space-vitae/issues"
+  },
+  "homepage": "https://github.com/henryhe1/space-vitae#readme",
+  "description": ""
+}

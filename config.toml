@@ -67,6 +67,11 @@ name = "music"
 url = "/music"
 weight = 6
 
+[[menu.main]]
+name = "peds-vitals"
+url = "/pedsvitals"
+weight = 7
+
 [[params.social]]
 name = "Twitter"
 icon = "fab fa-twitter"

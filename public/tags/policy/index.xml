@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>policy on s p a c e</title>
+    <link>https://henryhe.me/tags/policy/</link>
+    <description>Recent content in policy on s p a c e</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>🌊 Henry He 2020</copyright>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://henryhe.me/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Dollar Value of a Human Life</title>
+      <link>https://henryhe.me/posts/econ/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://henryhe.me/posts/econ/</guid>
+      <description>Spoiler…it’s $10 million USD.  I heard a fascinating podcast episode from Planet Money titled “Lives Vs. The Economy” recently, and it blew my mind.
+It addressed the question that has been asked more and more recently in the public discourse: “is it ever worth it to shut down the economy to save lives?”, or in other words, “Why can’t we open back up? I need to go back to work!</description>
+    </item>
+    
+  </channel>
+</rss>
