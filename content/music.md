@@ -1,6 +1,7 @@
 ---
 title: "music"
 draft: false
+images: ["https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 "]
 ---
 
 So I like making music. I play piano, guitar, and sing, and I make my own beats too. I don't have the greatest voice nor the greatest musical talent, but I love making covers of my favourite songs, because it's a chance to experience them on a deeper level. I want to put out some originals eventually as well. 
