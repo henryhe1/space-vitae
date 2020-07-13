@@ -27,7 +27,7 @@ Total orders: <strong>37</strong>, 0 left.
 
 <div style="color:red;"> 
 	<strong>
-*** We should out in a week! Thanks everyone for your support. I will leave the form up just to gauge ongoing interest, but will not be taking any new orders at the moment. Thank you! ***
+*** We sold out in a week! Thanks everyone for your support. I will leave the form up just to gauge ongoing interest, but will not be taking any new orders at the moment. Thank you! ***
 </strong>
 </div>
 
