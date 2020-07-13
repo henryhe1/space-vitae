@@ -1,7 +1,6 @@
 ---
 title: "PedsVitals 🧸❤️"
 draft: false
-type: page
 images: ["https://images.unsplash.com/photo-1537673156864-5d2c72de7824?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"]
 ---
 
@@ -16,7 +15,7 @@ My goals were to create a resource that was
 <div style="color:green;"> 
 
 1. As accurate and up-to-date as possible
-2. Small, convenient to access, and inconspcious. Able to be carried with other ID cards on a lanyard or keychain
+2. Small, convenient to access, and inconspicuous. Able to be carried with other ID cards on a lanyard or keychain
 3. Durable, waterproof and able to be sanitized
 4. Affordable
 
@@ -24,7 +23,13 @@ My goals were to create a resource that was
 
 I made a few prototypes at Staples, fulfilled my first orders to some of my classmates, and created my first batch, ready to be easily mailed out in an envelope anywhere in Canada! 
 
-Total orders completed: <strong>10</strong>
+Total orders: <strong>37</strong>, 0 left. 
+
+<div style="color:red;"> 
+	<strong>
+*** We should out in a week! Thanks everyone for your support. I will leave the form up just to gauge ongoing interest, but will not be taking any new orders at the moment. Thank you! ***
+</strong>
+</div>
 
 ### Who is this for?
 
