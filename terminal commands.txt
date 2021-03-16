@@ -6,3 +6,12 @@ git add .
 git commit -m "msg"
 git push
 
+change pedsvitals html to 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="refresh" content="0; URL='https://pedsvitals.square.site/'" />
+</head>
+
+</html>
