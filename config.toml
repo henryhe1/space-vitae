@@ -4,7 +4,7 @@ title = "s p a c e"
 theme = "hugo-vitae"
 paginate = 5
 
-copyright = "🌊 Henry He 2020"
+copyright = "🌊 Henry He 2021"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
