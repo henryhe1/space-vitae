@@ -4,11 +4,19 @@ draft: false
 images: ["https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80 "]
 ---
 
-So I like making music. I play piano, guitar, and sing, and I make my own beats too. I don't have the greatest voice nor the greatest musical talent, but I love making covers of my favourite songs, because it's a chance to experience them on a deeper level. I want to put out some originals eventually as well. 
+So I like making music. I play piano, electric guitar, and sing, and I make my own beats too. I don't have the greatest voice nor the greatest musical talent, but I love making covers of my favourite songs, because it's a chance to experience them on a deeper level. Some of my biggest influences are Daniel Caesar, Rex Orange County, John Mayer, Still Woozy, Radiohead, and the Foo Fighters, in no particular order. 
 
-Some of my biggest influences are Daniel Caesar, David Choi, Khalil Fong, Rex Orange County, Post Malone, John Mayer, Chance the Rapper, Still Woozy, Radiohead, Queen, Fun, and Marianas Trench, in no particular order. I'm absolutely terrible at lyrics and I tend to understand melodies better. If you are interested in collabs, shoot me a message. If you're a singer, I usually put up instrumental versions of the covers on Soundcloud as well, just tag my socials so I can hear it too!
+I also write my own music under the name 'star anise' on Spotify!
 
-I still have a lot to learn, but here are 6 of my proudest covers: 
+
+### "Daydreaming" — star anise
+
+<iframe src="https://open.spotify.com/embed/track/2WVmzzSL9TslAaZMwYs2vH" width="100%" height="500" frameborder="5" allowtransparency="true" allow="encrypted-media"></iframe>
+
+My first original song! “Daydreaming” is about love and hope and wearing your heart on your sleeve. It’s inspired by the shimmery, optimistic indie-pop sound of Bleachers, Dayglow and Smallpools. I wrote, recorded, and produced the track using both real instruments and software instruments, with help from my long-time friend [Yifan](https://open.spotify.com/artist/1LSChoeTlUxsOvUef5Lq8g?si=5TkqQMAITxm2954_K05GRA). It was a challenging but overall super fun experience of musical perfectionism, slowly letting go of that perfectionism, and jamming out to an awesome song and just vibing. My goal was to write a song I wanted to listen to, and I'm happy to say that's true! Listen to the full song on [Spotify](https://open.spotify.com/embed/track/2WVmzzSL9TslAaZMwYs2vH) or [YouTube music](https://youtu.be/nuzUmpifxKA).
+
+
+#### <strong> Here are 5 of my proudest covers: </strong>
 
 ### "Broke & Sad" - Post Malone
 
@@ -40,10 +48,4 @@ When I saw this collab on [Colbert](https://www.youtube.com/watch?v=soC7DtJXMC8&
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/409800651&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 One of my top three favourite albums is *In Rainbows*. This song especially because the beat is just so interesting and the sound is so vast, you really start to swim in the great depths of the sea amongst the weird and terrifying creatures there. Some cool things I tried on this one in terms of production was an arpeggiator synth sound a la Snakehips, adding a lot of reverb and delay on everything to recreate that spacey sound, and using Logic's Drummer tracks for the first time. 
-
-### Waterfall - Jonathan Ogden
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/345579121&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-I first heard about Jonathan's music through [The Good Christian Music Blog](https://www.youtube.com/channel/UC7BHblJg0bOfE3g7FKc260g) and became an instant fan. His modest yet passionate approach to modern Christian music really inspired me to try and make beats. I realized that it wasn't all just Hillsong out there haha. He also just seems really cool, travelling the world and taking photos, making graphics, and music. Oh and he's also in a band called Rivers & Robots! I wonder if this is all just a part-time thing, because if it is then that is very impressive. He also gets a ton of brownie points because he actually left a comment on my Instagram when I put out the cover! The first time an artist actually interacted with my music. I actually recorded the vocals to this track in a stairwell in my apartment using my Apple earphone mic - I really like the natural reverb on it that is difficult to replicate in post-production. 
 
