@@ -6,7 +6,7 @@ type: "page"
 
 Hello internet wanderer! The idea of a static blog was inspired by my good friend Edward [(edho.me)](http://edho.me) and serves as a space for my thoughts and reflections. I started it in order to write more, because I like writing and it helps me process life a bit better. Hopefully it is inspiring or interesting to you as well. 
 
-I am a final-year medical student in Canada, so many of the posts will probably be medicine-related. Other potential topics include tech, music, and fitness, and I'll try my best to organize them with tags for easy navigation. Thank you for joining me on this journey.
+I am a resident doctor in Canada, so many of the posts will probably be medicine-related. Other potential topics include tech, music, and fitness, and I'll try my best to organize them with tags for easy navigation. Thank you for joining me on this journey.
 
 ### tech stuff
 
