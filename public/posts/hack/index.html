@@ -1,294 +1,611 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en-us" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="The Opioid Crisis, Soylent, and Retaining Humanity">
+<title>We Can Hack Pain — But Should We?</title>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
 
-	<title>We Can Hack Pain — But Should We? - s p a c e</title><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="http://localhost:1313/posts/hack/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
 
-	<meta property="og:url" content="https://henryhe.me/posts/hack/">
-  <meta property="og:site_name" content="s p a c e">
-  <meta property="og:title" content="We Can Hack Pain — But Should We?">
-  <meta property="og:description" content="The Opioid Crisis, Soylent, and Retaining Humanity">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2020-06-14T00:00:00+00:00">
-    <meta property="article:modified_time" content="2020-06-14T00:00:00+00:00">
-    <meta property="article:tag" content="Medicine">
-    <meta property="og:image" content="https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg">
-      <meta property="og:see_also" content="https://henryhe.me/posts/limits/">
-      <meta property="og:see_also" content="https://henryhe.me/posts/compassion/">
-      <meta property="og:see_also" content="https://henryhe.me/posts/econ/">
-      <meta property="og:see_also" content="https://henryhe.me/posts/advice/">
-      <meta property="og:see_also" content="https://henryhe.me/posts/anxiety/">
-      <meta property="og:see_also" content="https://henryhe.me/posts/covid-19-and-climate-change/">
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg">
-  <meta name="twitter:title" content="We Can Hack Pain — But Should We?">
-  <meta name="twitter:description" content="The Opioid Crisis, Soylent, and Retaining Humanity">
-<link rel="stylesheet" type="text/css" media="screen" href="https://henryhe.me/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://henryhe.me/css/main.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://henryhe.me/css/all.css" />
-		<link rel="stylesheet" type="text/css" href="https://henryhe.me/css/custom.css" />
-	
-</head>
+<link rel="stylesheet" href="/scss/style.min.389e156f5e9bb13df5a924cfa99dfb9c39f3e01e68d9e146cd65bdae963be145.css"><meta property='og:title' content="We Can Hack Pain — But Should We?">
+<meta property='og:description' content="The Opioid Crisis, Soylent, and Retaining Humanity">
+<meta property='og:url' content='http://localhost:1313/posts/hack/'>
+<meta property='og:site_name' content='s p a c e'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:tag' content='medicine' /><meta property='article:published_time' content='2020-06-14T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-06-14T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="We Can Hack Pain — But Should We?">
+<meta name="twitter:description" content="The Opioid Crisis, Soylent, and Retaining Humanity">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-<body>
-	<div class="container wrapper">
-		<div class="header">
-	
-		<div class="avatar">
-			<a href="https://henryhe.me/">
-				<img src="/img/henry.png" alt="s p a c e" />
-			</a>
-		</div>
-	
-	
-		<h2 class="site-title">
-	
-		<a href="https://henryhe.me/ ">s p a c e</a>
-	
-	</h2>
-	
-	<div class="site-description"><p>a blog</p><nav class="nav social">
-			<ul class="flat"><li class="li-social"><a href="https://twitter.com/henryhe_" target="_blank"><i title="Twitter" class="icons fab fa-twitter"></i></a></li><li class="li-social"><a href="https://instagram.com/henryhe_" target="_blank"><i title="IG" class="icons fab fa-instagram"></i></a></li><li class="li-social"><a href="https://open.spotify.com/artist/3CB8L5exWFpxIpacfVsE0l?si=bjZnucKMSmWGkirDaI5ulQ" target="_blank"><i title="Spotify" class="icons fab fa-spotify"></i></a></li><li class="li-social"><a href="https://soundcloud.com/staraniz" target="_blank"><i title="SoundCloud" class="icons fab fa-soundcloud"></i></a></li><li class="li-social"><a href="https://medium.com/@henryhe_" target="_blank"><i title="Medium" class="icons fab fa-medium"></i></a></li><li class="li-social"><a href="https://github.com/henryhe1" target="_blank"><i title="Github" class="icons fab fa-github"></i></a></li></ul>
-		</nav>
-	</div>
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="/">home</a>
-			</li>
-			
-			<li>
-				<a href="/posts">all posts</a>
-			</li>
-			
-			<li>
-				<a href="/about">about</a>
-			</li>
-			
-			<li>
-				<a href="/tags">tags</a>
-			</li>
-			
-			<li>
-				<a href="/series">series</a>
-			</li>
-			
-			<li>
-				<a href="/music">music</a>
-			</li>
-			
-			<li>
-				<a href="/pedsvitals">peds-vitals</a>
-			</li>
-			
-		</ul>
-	</nav>
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        <figure class="site-avatar">
+                <a href="/">
+                    <img src="/img/henry.png" 
+                        width="339"
+                        height="339"
+                        class="site-logo"
+                        loading="lazy"
+                        alt="Avatar">
+                </a>
+                
+            </figure>
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">s p a c e</a></h1>
+            <h2 class="site-description">a blog</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/archives' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/page/search' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/tags' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+                
+                <span>Tags</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/music' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Music</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='https://www.medvitals.ca' target="_blank">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Medvitals</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>Dark Mode</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav class="toc-nav" id="TableOfContents">
+                
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+            </nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/hack/">We Can Hack Pain — But Should We?</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            The Opioid Crisis, Soylent, and Retaining Humanity
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    <footer class="article-meta">
+        
+            <div class="inline-meta">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                    <time class="article-time--published" datetime='2020-06-14T00:00:00Z'>Sunday, June 14, 2020</time>
+                
+
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                    <time class="article-time--reading">
+                        10 minutes read
+                    </time>
+                
+            </div>
+        
+
+        
+
+        
+    </footer>
+    
 </div>
 
+</header>
 
-		<div class="post">
-			<div class="author">
-				
-			</div>
-			<div class="post-header">
-				
-					<div class="meta">
-						<div class="date">
-							<span class="day">14</span>
-							<span class="rest">Jun 2020</span>
-						</div>
-					</div>
-				
-				<div class="matter">
-					<h1 class="title">We Can Hack Pain — But Should We?</h1>
-				</div>
-			</div>
-			<div class="markdown">
-				<h4 id="the-opioid-crisis-soylent-and-retaining-humanity"><i> The Opioid Crisis, Soylent, and Retaining Humanity </i></h4>
-<p><img src="https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg" alt=""></p>
-<p>Red opium poppy plants. Photo by <a href="https://unsplash.com/@martenbjork?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">Marten Bjork</a> on <a href="https://unsplash.com/s/photos/opium-poppy?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText">Unsplash</a></p>
+    
+    <aside class="article-toc">
+        <details>
+            <summary>
+                <div class="article-toc-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                    <span>Table of contents</span>
+                </div>
+            </summary>
+            <nav class="toc-nav">
+                
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+
+            </nav>
+        </details>
+    </aside>
+    
+
+    <section class="article-content">
+    
+    
+    <h4 id="the-opioid-crisis-soylent-and-retaining-humanity"><a href="#the-opioid-crisis-soylent-and-retaining-humanity" class="header-anchor"></a><i> The Opioid Crisis, Soylent, and Retaining Humanity </i>
+</h4><p><img class="gallery-image" data-flex-basis="250px" data-flex-grow="104" height="1916" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg" srcset="/1*BeeYKglgt60nvwCG-MhNlw_7901469540063973928_hu_dad443a086f76e2c.jpg 800w, /1*BeeYKglgt60nvwCG-MhNlw_7901469540063973928_hu_484b4ff72c8b8193.jpg 1600w, https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg 2000w" width="2000"></p>
+<p>Red opium poppy plants. Photo by <a class="link" href="https://unsplash.com/@martenbjork?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"  target="_blank" rel="noopener"
+    >Marten Bjork</a> on <a class="link" href="https://unsplash.com/s/photos/opium-poppy?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"  target="_blank" rel="noopener"
+    >Unsplash</a></p>
 <p>I learned recently that Americans are the highest opioid users per capita in the world. That was no surprise. However, this next fact made me stop and think: <strong>there is no evidence that Americans experience any more pain than people from other countries</strong>.</p>
-<p>A 2019 <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32229-9/fulltext"><em>Lancet</em> study</a> found that the use of opioid analgesics (painkillers) in the USA far exceeds its use in other nations. The US population consumed 68% of the world’s prescribed opioids between 2011 and 2013, despite only making up 4.25% of the global population. What’s going on?</p>
-<p><img src="https://miro.medium.com/max/1400/1*i1PH-ld1MSHvjzHH6INXCg.png" alt=""></p>
-<p>s-DDDs=standardised defined daily doses, or the average dose of opioid per day. The USA leads the pack in both opioid usage and the growth of usage in the last few decades. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32229-9/fulltext">Degenhardt <em>et al.</em>, 2019</a></p>
+<p>A 2019 <a class="link" href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2819%2932229-9/fulltext"  target="_blank" rel="noopener"
+    ><em>Lancet</em> study</a> found that the use of opioid analgesics (painkillers) in the USA far exceeds its use in other nations. The US population consumed 68% of the world’s prescribed opioids between 2011 and 2013, despite only making up 4.25% of the global population. What’s going on?</p>
+<p><img class="gallery-image" data-flex-basis="217px" data-flex-grow="90" height="1272" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/1400/1*i1PH-ld1MSHvjzHH6INXCg.png" srcset="/1*i1PH-ld1MSHvjzHH6INXCg_6764016914822501169_hu_57964271aa2f495b.png 800w, https://miro.medium.com/max/1400/1*i1PH-ld1MSHvjzHH6INXCg.png 1152w" width="1152"></p>
+<p>s-DDDs=standardised defined daily doses, or the average dose of opioid per day. The USA leads the pack in both opioid usage and the growth of usage in the last few decades. <a class="link" href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2819%2932229-9/fulltext"  target="_blank" rel="noopener"
+    >Degenhardt <em>et al.</em>, 2019</a></p>
 <hr>
-<h1 id="origins-of-the-opioid-crisis">Origins of the Opioid Crisis</h1>
-<p>Morphine, the original opioid, is isolated from the opium poppy plant and has been used for millennia in the middle eastern societies by ancient priests and physicians. Today, we have developed synthetic opioids such as fentanyl and carfentanil, which are 100 and 10 000 times more potent than morphine respectively. Opioid drugs are listed by the <a href="https://apps.who.int/iris/bitstream/handle/10665/325771/WHO-MVP-EMP-IAU-2019.06-eng.pdf?ua=1">World Health Organization</a> as an essential medicine, indicated for the treatment of acute pain, pain caused by cancer, and palliative care.</p>
-<p><img src="https://miro.medium.com/max/1400/1*nYOJi2nZvQeBEQZt48o_Tw.png" alt=""></p>
-<p>Relative potencies of opioids. Image by Author. Data: <a href="https://www.cdc.gov/drugoverdose/pdf/calculating_total_daily_dose-a.pdf">CDC</a>.</p>
+<h1 id="origins-of-the-opioid-crisis"><a href="#origins-of-the-opioid-crisis" class="header-anchor"></a>Origins of the Opioid Crisis
+</h1><p>Morphine, the original opioid, is isolated from the opium poppy plant and has been used for millennia in the middle eastern societies by ancient priests and physicians. Today, we have developed synthetic opioids such as fentanyl and carfentanil, which are 100 and 10 000 times more potent than morphine respectively. Opioid drugs are listed by the <a class="link" href="https://apps.who.int/iris/bitstream/handle/10665/325771/WHO-MVP-EMP-IAU-2019.06-eng.pdf?ua=1"  target="_blank" rel="noopener"
+    >World Health Organization</a> as an essential medicine, indicated for the treatment of acute pain, pain caused by cancer, and palliative care.</p>
+<p><img class="gallery-image" data-flex-basis="240px" data-flex-grow="100" height="1400" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/1400/1*nYOJi2nZvQeBEQZt48o_Tw.png" srcset="/1*nYOJi2nZvQeBEQZt48o_Tw_13684868093950593378_hu_cef405d86a7f8a65.png 800w, https://miro.medium.com/max/1400/1*nYOJi2nZvQeBEQZt48o_Tw.png 1400w" width="1400"></p>
+<p>Relative potencies of opioids. Image by Author. Data: <a class="link" href="https://www.cdc.gov/drugoverdose/pdf/calculating_total_daily_dose-a.pdf"  target="_blank" rel="noopener"
+    >CDC</a>.</p>
 <p>However, in North America, many patients with chronic non-cancer pain are prescribed opioids, and sometimes this has resulted in iatrogenic (from the Greek for “brought forth by the healer”) opioid dependence and subsequent illicit opioid use. The authors of the aforementioned <em>Lancet</em> article write:</p>
-<blockquote>
-<p>“From the 1990s to around 2011, aggressive promotion, under­regulation, and overprescribing of pharmaceutical opioids caused a substantial increase in opioid depen­dence and overdose deaths.”</p>
-</blockquote>
-<p>In fact, in January 2020, the CEO and founder of the pharmaceutical company Insys Therapeutics was <a href="https://www.npr.org/2020/01/23/798973304/pharmaceutical-executive-john-kapoor-sentenced-to-66-months-in-prison-in-opioid">convicted of engaging in a racketeering conspiracy</a> to increase the profits from his company’s sublingual fentanyl spray, including the bribing of doctors to prescribe the medication to patients beyond the approved use for cancer pain. He was sentenced to 66 months in prison. Criminal charges against other pharmaceutical executives tied to the opioid epidemic <a href="https://www.vox.com/policy-and-politics/2019/10/10/20881636/sacklers-purdue-opioid-epidemic-prison-prosecution-criminal-investigation">are underway</a>.</p>
+
+    <blockquote>
+        <p>“From the 1990s to around 2011, aggressive promotion, under­regulation, and overprescribing of pharmaceutical opioids caused a substantial increase in opioid depen­dence and overdose deaths.”</p>
+
+    </blockquote>
+<p>In fact, in January 2020, the CEO and founder of the pharmaceutical company Insys Therapeutics was <a class="link" href="https://www.npr.org/2020/01/23/798973304/pharmaceutical-executive-john-kapoor-sentenced-to-66-months-in-prison-in-opioid"  target="_blank" rel="noopener"
+    >convicted of engaging in a racketeering conspiracy</a> to increase the profits from his company’s sublingual fentanyl spray, including the bribing of doctors to prescribe the medication to patients beyond the approved use for cancer pain. He was sentenced to 66 months in prison. Criminal charges against other pharmaceutical executives tied to the opioid epidemic <a class="link" href="https://www.vox.com/policy-and-politics/2019/10/10/20881636/sacklers-purdue-opioid-epidemic-prison-prosecution-criminal-investigation"  target="_blank" rel="noopener"
+    >are underway</a>.</p>
 <p>It wasn’t until 2010 that rules and regulations were put into place, but unfortunately it was too little too late. Demand stayed high, and the illicit market profited from the mandated decreases in supply. In a sense, we had tasted the forbidden fruit and opened Pandora’s box. Now we can never go back.</p>
 <hr>
-<h1 id="the-efficacy-of-opioids">The Efficacy of Opioids</h1>
-<p>The worst part of it is, opioids aren’t even that much better at controlling pain in the first place. In 2018 <a href="https://jamanetwork.com/journals/jama/fullarticle/2718795">a systematic review</a> of 96 randomized clinical trials and over 26 000 patients with chronic noncancer pain found that although the use of opioids was associated with less pain and improved physical functioning compared to placebo, the result did not meet the “minimally important difference”, or the smallest amount of improvement in a treatment outcome that patients could recognize as important. The incidence of vomiting, however, was significantly higher in the opioid group.</p>
-<p>The 2018 <a href="https://jamanetwork.com/journals/jama/fullarticle/2673971">SPACE Randomized Clinical Trial</a> showed that for patients with moderate to severe chronic back pain, or hip or knee osteoarthritis, opioids did not improve pain-related function, and pain intensity was actually better controlled in the nonopioid group (with Tylenol or Advil). Adverse symptoms, however, were significantly more common in the opioid group.</p>
-<p>Besides chronic pain, opioids are often prescribed for post-surgical pain. The 2019 <a href="https://jamanetwork.com/journals/jama/fullarticle/2724188">PANSAID Randomized Clinical Trial</a> looked at patients after total hip replacement surgery and showed that among the most common nonopioid analgesic regimens, ibuprofen (Advil) alone was the best, and significantly reduced morphine requirements.</p>
-<p>A 2019 <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2749239">cohort study</a> of just under 130 000 patients undergoing the same surgeries in the USA, Canada, and Sweden studied postoperative opioid usage. They found that after surgery in the United States and Canada, patients had a 7-fold higher rate of opioid prescriptions filled than patients in Sweden. Could it be that North Americans felt more pain or had more painful surgeries? No, because the patients shared similar characteristics across the three countries, including age, comorbidities, and type of surgery. While the irresponsible promotion of opioids by pharmaceutical companies play an undeniable role, I believe the discrepancy is also due to our deeper, more systemic cultural relationship to pain that allowed them to propagate their criminal marketing in the first place.</p>
-<p><img src="https://miro.medium.com/max/1400/1*4egchfS5WFcoMcjoIUfapQ.png" alt=""></p>
-<p>Differences in opioid prescriptions filled after surgery between the three countries. Error bars represent 95% confidence intervals. <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2749239">Ladha et al., 2019</a>.</p>
+<h1 id="the-efficacy-of-opioids"><a href="#the-efficacy-of-opioids" class="header-anchor"></a>The Efficacy of Opioids
+</h1><p>The worst part of it is, opioids aren’t even that much better at controlling pain in the first place. In 2018 <a class="link" href="https://jamanetwork.com/journals/jama/fullarticle/2718795"  target="_blank" rel="noopener"
+    >a systematic review</a> of 96 randomized clinical trials and over 26 000 patients with chronic noncancer pain found that although the use of opioids was associated with less pain and improved physical functioning compared to placebo, the result did not meet the “minimally important difference”, or the smallest amount of improvement in a treatment outcome that patients could recognize as important. The incidence of vomiting, however, was significantly higher in the opioid group.</p>
+<p>The 2018 <a class="link" href="https://jamanetwork.com/journals/jama/fullarticle/2673971"  target="_blank" rel="noopener"
+    >SPACE Randomized Clinical Trial</a> showed that for patients with moderate to severe chronic back pain, or hip or knee osteoarthritis, opioids did not improve pain-related function, and pain intensity was actually better controlled in the nonopioid group (with Tylenol or Advil). Adverse symptoms, however, were significantly more common in the opioid group.</p>
+<p>Besides chronic pain, opioids are often prescribed for post-surgical pain. The 2019 <a class="link" href="https://jamanetwork.com/journals/jama/fullarticle/2724188"  target="_blank" rel="noopener"
+    >PANSAID Randomized Clinical Trial</a> looked at patients after total hip replacement surgery and showed that among the most common nonopioid analgesic regimens, ibuprofen (Advil) alone was the best, and significantly reduced morphine requirements.</p>
+<p>A 2019 <a class="link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2749239"  target="_blank" rel="noopener"
+    >cohort study</a> of just under 130 000 patients undergoing the same surgeries in the USA, Canada, and Sweden studied postoperative opioid usage. They found that after surgery in the United States and Canada, patients had a 7-fold higher rate of opioid prescriptions filled than patients in Sweden. Could it be that North Americans felt more pain or had more painful surgeries? No, because the patients shared similar characteristics across the three countries, including age, comorbidities, and type of surgery. While the irresponsible promotion of opioids by pharmaceutical companies play an undeniable role, I believe the discrepancy is also due to our deeper, more systemic cultural relationship to pain that allowed them to propagate their criminal marketing in the first place.</p>
+<p><img class="gallery-image" data-flex-basis="462px" data-flex-grow="192" height="418" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/1400/1*4egchfS5WFcoMcjoIUfapQ.png" srcset="/1*4egchfS5WFcoMcjoIUfapQ_7107756061012813709_hu_e128471e6c34e5bb.png 800w, https://miro.medium.com/max/1400/1*4egchfS5WFcoMcjoIUfapQ.png 805w" width="805"></p>
+<p>Differences in opioid prescriptions filled after surgery between the three countries. Error bars represent 95% confidence intervals. <a class="link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2749239"  target="_blank" rel="noopener"
+    >Ladha et al., 2019</a>.</p>
 <hr>
-<h1 id="hacking-culture--a-pillar-of-the-american-economy">‘Hacking’ Culture — A Pillar of the American Economy</h1>
-<p>America has always been an innovator in ‘fast’ things. In other words, immediate gratification. Fast food is a staple of American cuisine with international icons like McDonald’s, Wendy’s, and Kentucky Fried Chicken. The Chinese take-out container was <a href="https://www.nytimes.com/2012/01/15/magazine/the-chinese-takeout-container-is-uniquely-american.html">invented in Chicago</a> in the late 19th century. With Amazon Prime Now, customers can get stuff delivered to their door within just 1–2 hours of clicking ‘order’. Americans want things quickly, and they don’t like waiting.</p>
+<h1 id="hacking-culture--a-pillar-of-the-american-economy"><a href="#hacking-culture--a-pillar-of-the-american-economy" class="header-anchor"></a>‘Hacking’ Culture — A Pillar of the American Economy
+</h1><p>America has always been an innovator in ‘fast’ things. In other words, immediate gratification. Fast food is a staple of American cuisine with international icons like McDonald’s, Wendy’s, and Kentucky Fried Chicken. The Chinese take-out container was <a class="link" href="https://www.nytimes.com/2012/01/15/magazine/the-chinese-takeout-container-is-uniquely-american.html"  target="_blank" rel="noopener"
+    >invented in Chicago</a> in the late 19th century. With Amazon Prime Now, customers can get stuff delivered to their door within just 1–2 hours of clicking ‘order’. Americans want things quickly, and they don’t like waiting.</p>
 <p>During my undergrad, I was an avid hackathon attendee. Hackathons (a portmanteau of <em>hacking marathon</em>)  are typically weekend-long events where computer nerds get together to collaborate intensively on software projects. The culture can loosely be described as sweaty, chaotic, and intense. Sleep and hygiene are quickly sacrificed for the excitement of creating something awesome, and the chance to win some big prizes. Startups often sponsor these events, and it was at a hackathon where I first had a taste of Soylent.</p>
-<p><img src="https://miro.medium.com/max/1400/0*86hqrDtsB3TIcssl.jpg" alt=""></p>
-<p>Soylent in different flavors. Photo: <a href="https://www.sfgate.com/shopping/article/Soylent-review-drink-for-3-years-14992445.php">Soylent</a>.</p>
-<p>Soylent is a meal replacement drink created in 2014 by a Silicon Valley software engineer. It was a fascinating concept: food was a time-consuming hassle that was only necessary for survival, and it could be solved as an engineering problem. Soylent was also cheap (<a href="https://soylent.com/blogs/news/effective-today-7-pack-powder-is-now-1-50-meal">$1.50/meal</a> for the powdered version) and could even be a solution to food insecurity around the world. The idea caught on, and the founders raised $2.1 million via online crowdfunding, and then an additional $1.5 million of private funding right afterward. I bought into this idea too, and I purchased a couple of boxes of Soylent to use during exams when I was busy reviewing (read: cramming) semester-worths of notes to regurgitate them on the exam.</p>
+<p><img class="gallery-image" data-flex-basis="360px" data-flex-grow="150" height="613" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/1400/0*86hqrDtsB3TIcssl.jpg" srcset="/0*86hqrDtsB3TIcssl_14984806630332986815_hu_f0465c6c1034d9e0.jpg 800w, https://miro.medium.com/max/1400/0*86hqrDtsB3TIcssl.jpg 920w" width="920"></p>
+<p>Soylent in different flavors. Photo: <a class="link" href="https://www.sfgate.com/shopping/article/Soylent-review-drink-for-3-years-14992445.php"  target="_blank" rel="noopener"
+    >Soylent</a>.</p>
+<p>Soylent is a meal replacement drink created in 2014 by a Silicon Valley software engineer. It was a fascinating concept: food was a time-consuming hassle that was only necessary for survival, and it could be solved as an engineering problem. Soylent was also cheap (<a class="link" href="https://soylent.com/blogs/news/effective-today-7-pack-powder-is-now-1-50-meal"  target="_blank" rel="noopener"
+    >$1.50/meal</a> for the powdered version) and could even be a solution to food insecurity around the world. The idea caught on, and the founders raised $2.1 million via online crowdfunding, and then an additional $1.5 million of private funding right afterward. I bought into this idea too, and I purchased a couple of boxes of Soylent to use during exams when I was busy reviewing (read: cramming) semester-worths of notes to regurgitate them on the exam.</p>
 <p>It was great. Meals became a 5-minute affair, the taste was tolerable, I felt full, and I had no dishes to do. However, by the end of the two-week exam period, I felt like I had lost something: the ability to taste, the ability to cook, and the ability to form solid stool.</p>
 <p>When Soylent first came out, a big criticism was that in “hacking away” the “tediousness” of cooking and eating, you also hack away the human pleasures that come with preparing food and sharing a meal with others. Food has always been a centerpiece in human social behavior from the dawn of time. When was the last time you willingly hung out with someone in a setting that didn’t involve food or drink? We are so lucky to exist in a time when we have access to all the delicious cuisines on Earth, via both the restaurants that serve us these dishes and the ingredients and online recipes to make them ourselves. Taking that away is like stripping away a bit of makes us human. It’s a similar argument with pain.</p>
 <hr>
-<h1 id="humans-and-opioids">Humans and Opioids</h1>
-<p>Opioids, like all drugs, are useful for a reason — they help us control acute pain, tolerate surgery, and provide symptomatic relief to cancer patients. But they also carry a lot of risks including addiction, dependence, and death.</p>
-<p>The <a href="https://www.theopioidchapters.com/">Opioid Chapters</a> is a website that features interviews with patients and healthcare workers who have lived experience with opioids. One interviewee injured his back while working as a paramedic, and after trying many treatments, found that opioids were the only drug that dulled his pain. “The opioids worked,” he says. “They are about the only thing that has worked. But my tolerance increased and I needed more. So then it was like, ‘Okay, this is going in the wrong direction.’” At the same time, he is worried that doctors are being pressured to not use opioids at all, even when they are the only thing that works for some patients. Another interviewee talks about waking up one morning to find his wife slumped over, dead from an unintentional fentanyl patch overdose.</p>
-<p>Ironically, opioid use may even cause <em>more</em> pain, a phenomenon called “opioid-induced hyperalgesia”. While we don’t fully understand why this happens, <a href="https://pubmed.ncbi.nlm.nih.gov/21412369/">scientists believe</a> it has to do with brain neuroplasticity and neurotransmitter modulation upon long-term exposure to opioids. This is another reason why Pandora’s box is next to impossible to close. The longer patients are on chronic opioids, the more likely they are to experience more pain, and consequently need more and more opioids — a never-ending deadly cycle.</p>
+<h1 id="humans-and-opioids"><a href="#humans-and-opioids" class="header-anchor"></a>Humans and Opioids
+</h1><p>Opioids, like all drugs, are useful for a reason — they help us control acute pain, tolerate surgery, and provide symptomatic relief to cancer patients. But they also carry a lot of risks including addiction, dependence, and death.</p>
+<p>The <a class="link" href="https://www.theopioidchapters.com/"  target="_blank" rel="noopener"
+    >Opioid Chapters</a> is a website that features interviews with patients and healthcare workers who have lived experience with opioids. One interviewee injured his back while working as a paramedic, and after trying many treatments, found that opioids were the only drug that dulled his pain. “The opioids worked,” he says. “They are about the only thing that has worked. But my tolerance increased and I needed more. So then it was like, ‘Okay, this is going in the wrong direction.’” At the same time, he is worried that doctors are being pressured to not use opioids at all, even when they are the only thing that works for some patients. Another interviewee talks about waking up one morning to find his wife slumped over, dead from an unintentional fentanyl patch overdose.</p>
+<p>Ironically, opioid use may even cause <em>more</em> pain, a phenomenon called “opioid-induced hyperalgesia”. While we don’t fully understand why this happens, <a class="link" href="https://pubmed.ncbi.nlm.nih.gov/21412369/"  target="_blank" rel="noopener"
+    >scientists believe</a> it has to do with brain neuroplasticity and neurotransmitter modulation upon long-term exposure to opioids. This is another reason why Pandora’s box is next to impossible to close. The longer patients are on chronic opioids, the more likely they are to experience more pain, and consequently need more and more opioids — a never-ending deadly cycle.</p>
 <p>Another interviewee, a family doctor, talks about the difficulty that came with taking over a high-opioid-prescriber’s family medicine practice and trying to taper down her patients’ opioid dosages. She reflects on how they got onto the high dosages in the first place and admits that the ‘hacking’ culture spills into medicine as well.</p>
-<blockquote>
-<p>“More and more,” she says, “physicians are being trained to find a pill for every problem, instead of looking at the underlying root causes of disease and actually offering something that is a bit more holistic and durable.”</p>
-</blockquote>
-<p><img src="https://miro.medium.com/max/1400/0*b77Go2bXoqpEOmv_" alt=""></p>
-<p>Dan injured his back working as a paramedic. Opioids are the only thing that dulls his pain, but his tolerance has increased. <a href="https://www.theopioidchapters.com/dan">The Opioid Chapters</a>.</p>
+
+    <blockquote>
+        <p>“More and more,” she says, “physicians are being trained to find a pill for every problem, instead of looking at the underlying root causes of disease and actually offering something that is a bit more holistic and durable.”</p>
+
+    </blockquote>
+<p><img class="gallery-image" data-flex-basis="360px" data-flex-grow="150" height="933" loading="lazy" sizes="(max-width: 767px) calc(100vw - 30px), (max-width: 1023px) 700px, (max-width: 1279px) 950px, 1232px" src="https://miro.medium.com/max/1400/0*b77Go2bXoqpEOmv_" srcset="/0*b77Go2bXoqpEOmv__1307980766321288270_hu_c1967357151ec309.jpg 800w, https://miro.medium.com/max/1400/0*b77Go2bXoqpEOmv_ 1400w" width="1400"></p>
+<p>Dan injured his back working as a paramedic. Opioids are the only thing that dulls his pain, but his tolerance has increased. <a class="link" href="https://www.theopioidchapters.com/dan"  target="_blank" rel="noopener"
+    >The Opioid Chapters</a>.</p>
 <hr>
-<h1 id="pain-is-a-part-of-life">Pain is a Part of Life</h1>
-<p>I came across an excellent New York Times opinion piece a couple of years ago titled, “<a href="https://www.nytimes.com/2018/01/27/opinion/sunday/surgery-germany-vicodin.html">After Surgery in Germany, I Wanted Vicodin, Not Herbal Tea</a>”. The author, an American who emigrated to Germany, writes about how she was surprised she was only offered ibuprofen (Advil) for pain control after her hysterectomy (surgical removal of her uterus). She wanted Vicodin (a combination of acetaminophen and hydrocodone, an opioid) instead. The author recalls her anesthesiologist explaining:</p>
-<blockquote>
-<p>“Pain is a part of life. We cannot eliminate it nor do we want to. The pain will guide you. You will know when to rest more; you will know when you are healing. If I give you Vicodin, you will no longer feel the pain, yes, but you will no longer know what your body is telling you. You might overexert yourself because you are no longer feeling the pain signals. All you need is rest. And please be careful with ibuprofen. It’s not good for your kidneys. Only take it if you must. Your body will heal itself with rest.”</p>
-</blockquote>
+<h1 id="pain-is-a-part-of-life"><a href="#pain-is-a-part-of-life" class="header-anchor"></a>Pain is a Part of Life
+</h1><p>I came across an excellent New York Times opinion piece a couple of years ago titled, “<a class="link" href="https://www.nytimes.com/2018/01/27/opinion/sunday/surgery-germany-vicodin.html"  target="_blank" rel="noopener"
+    >After Surgery in Germany, I Wanted Vicodin, Not Herbal Tea</a>”. The author, an American who emigrated to Germany, writes about how she was surprised she was only offered ibuprofen (Advil) for pain control after her hysterectomy (surgical removal of her uterus). She wanted Vicodin (a combination of acetaminophen and hydrocodone, an opioid) instead. The author recalls her anesthesiologist explaining:</p>
+
+    <blockquote>
+        <p>“Pain is a part of life. We cannot eliminate it nor do we want to. The pain will guide you. You will know when to rest more; you will know when you are healing. If I give you Vicodin, you will no longer feel the pain, yes, but you will no longer know what your body is telling you. You might overexert yourself because you are no longer feeling the pain signals. All you need is rest. And please be careful with ibuprofen. It’s not good for your kidneys. Only take it if you must. Your body will heal itself with rest.”</p>
+
+    </blockquote>
 <p>If more doctors were brave enough to recommend rest over opioids, and more patients willing to accept it, maybe, just maybe, we might not have had nearly as bad of an opioid crisis.</p>
 <hr>
 <p>The opioid crisis was created due to aggressive pharmaceutical marketing, physician greed, and the North American culture of ‘hacking’ away inconveniences such as pain. It has resulted in patient deaths and addictions, a growing illegal trade, and the criminal convictions of pharmaceutical executives. It also resulted in a large discrepancy between the opioid use by Americans compared to use by the rest of the world, despite no good evidence showing opioids are more effective at controlling pain and restoring function compared to non-opioid painkillers.</p>
 <p>Technology has come a long way in pushing the frontiers of human possibility. Silicon Valley startups and modern medicine have undoubtedly improved the quality of life for a lot of people. However, as the old saying goes, with great power comes great responsibility, and we should be careful before hacking away the last parts of us that make us who we are.</p>
 
-			</div>
-			<div class="tags">
-				
-				
-				
-				
-					
-					
-					
-						<div class="taxosfloating_left">
-							<p>Series</p>
-						</div>
-						<div class="termsfloating_right">
-							<p>
-								
-									
-									
-									
-								
-									
-									
-										<a href="/series/medicine/"> medicine </a>
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								
-							</p>
-						</div>
-						<div class="clearit"></div>
-					
-					
-					
-				
-					
-					
-					
-						<div class="taxosfloating_left">
-							<p>Tags</p>
-						</div>
-						<div class="termsfloating_right">
-							<p>
-								
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								
-									
-									
-									
-								
-									
-									
-									
-								
-									
-									
-									
-								
-									
-									
-										<a href="/tags/medicine/"> medicine </a>
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-									
-								
-									
-									
-									
-								
-							</p>
-						</div>
-						<div class="clearit"></div>
-					
-					
-					
-				
-				
-			</div></div>
-	</div>
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div class="footertext"> 🌊 Henry He 2026 </div>
-	</nav>
+</section>
+
+
+    <footer class="article-meta article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/medicine/">Medicine</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside>
+    <h2 class="section-title">Related content</h2>
+    <div class="subsection-list">
+        <div class="article-list--tile">
+            
+                
+<article class="">
+    <a href="/posts/limits/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Knowing Your Limits is Strength, Not Weakness</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/posts/compassion/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Compassion vs. Burnout</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/posts/econ/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">The Dollar Value of a Human Life</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/posts/advice/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Advice for students applying to medical school</h2>
+        </div>
+    </a>
+</article>
+            
+                
+<article class="">
+    <a href="/posts/anxiety/">
+        
+
+        <div class="article-details">
+            <h2 class="article-title">What if I told you that you could be your own ‘anxiety pill’?</h2>
+        </div>
+    </a>
+</article>
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+        <div class="disqus-container">
+    
 </div>
 
-</body>
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2021 - 
+        
+        2026 Henry He 🌊
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="4.0.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+
+
+
+<script type="module">
+    import gallery from '\/ts\/gallery.js';
+
+    const articleContent = document.querySelector('.article-content');
+    const shouldLoad = articleContent && (articleContent.querySelectorAll('figure').length > 0 || articleContent.querySelectorAll('img.gallery-image').length > 0);
+    
+    if (shouldLoad) {
+        gallery(articleContent);
+
+        const PhotoSwipeLightbox = (await import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js")).default;
+        const styleHref = "https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.css";
+
+        const styleTag = document.createElement('link');
+        styleTag.rel = 'stylesheet';
+        styleTag.href = styleHref;
+        document.head.appendChild(styleTag);
+
+        const lightbox = new PhotoSwipeLightbox({
+            gallerySelector: '.article-content',
+            childSelector: 'figure a.image-link',
+            pswpModule: () => import("https:\/\/cdn.jsdelivr.net\/npm\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js")
+        });
+        lightbox.init();
+    }
+</script>
+    
+
+            </main>
+        </div>
+        
+<script type="text/javascript" src="/ts/main.3ec6044327b8bdf52a16d210c154dc45597cde1ff50ec9f84aa719d5d410c461.js" defer></script>
+
+
+    </body>
 </html>
