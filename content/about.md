@@ -1,6 +1,12 @@
 ---
 title: "About"
 comments: false
+menu: 
+    main:
+        name: About
+        weight: 2
+        params:
+            icon: User
 ---
 
 Welcome to my corner of the internet. The idea of a static blog was inspired by my good friend Edward [(edho.me)](http://edho.me) and serves as a space for my thoughts and reflections. 

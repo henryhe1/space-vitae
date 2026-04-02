@@ -29,5 +29,13 @@ links:
 comments: false
 license: false
 readingtime : false
+
+menu: 
+    main:
+        name: Links
+        weight: 5
+        params:
+            icon: link
+
 ---
 Here are some of my other projects:
