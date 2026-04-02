@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>policy on s p a c e</title>
-    <link>https://henryhe.me/tags/policy/</link>
-    <description>Recent content in policy on s p a c e</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Policy on s p a c e</title>
+    <link>http://localhost:1313/tags/policy/</link>
+    <description>Recent content in Policy on s p a c e</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>🌊 Henry He 2020</copyright>
+    <copyright>🌊 Henry He 2026</copyright>
     <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://henryhe.me/tags/policy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:1313/tags/policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Dollar Value of a Human Life</title>
-      <link>https://henryhe.me/posts/econ/</link>
+      <link>http://localhost:1313/posts/econ/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://henryhe.me/posts/econ/</guid>
-      <description>Spoiler…it’s $10 million USD.  I heard a fascinating podcast episode from Planet Money titled “Lives Vs. The Economy” recently, and it blew my mind.
-It addressed the question that has been asked more and more recently in the public discourse: “is it ever worth it to shut down the economy to save lives?”, or in other words, “Why can’t we open back up? I need to go back to work!</description>
+      <guid>http://localhost:1313/posts/econ/</guid>
+      <description>&lt;h4 id=&#34;spoilerits-10-million-usd&#34;&gt;&lt;i&gt; Spoiler…it’s $10 million USD. &lt;/i&gt;&lt;/h4&gt;&#xA;&lt;p&gt;I heard a &lt;em&gt;fascinating&lt;/em&gt;  podcast episode from Planet Money titled “&lt;a href=&#34;https://www.npr.org/2020/04/15/835571843/episode-991-lives-vs-the-economy&#34;&gt;Lives Vs. The Economy&lt;/a&gt;” recently, and it &lt;strong&gt;blew my mind.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;It addressed the question that has been asked more and more recently in the public discourse: “is it ever worth it to shut down the economy to save lives?”, or in other words, “Why can’t we open back up? I need to go back to work! I need a haircut!”.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

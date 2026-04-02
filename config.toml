@@ -4,15 +4,15 @@ title = "s p a c e"
 theme = "hugo-vitae"
 paginate = 5
 
-copyright = "🌊 Henry He 2021"
+copyright = "🌊 Henry He 2026"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 enableEmoji = true
 
-googleAnalytics = "UA-127793104-1"
-disqusShortname = "spaceblog-1"
+# googleAnalytics = "UA-127793104-1"
+# disqusShortname = "spaceblog-1"
 
 [markup.goldmark.renderer]
 	unsafe = true
