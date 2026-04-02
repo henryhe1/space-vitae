@@ -3,22 +3,16 @@ title: "The Dollar Value of a Human Life"
 date: 2020-04-30
 description: "Spoiler…it’s $10 million USD."
 tags: [medicine, economics, policy] 
-series: [medicine]
-images: ["https://miro.medium.com/max/1400/0*T5IgKvTz8G0f2Qch.jpg"]
+categories: [medicine]
+image: "https://miro.medium.com/max/1400/0*T5IgKvTz8G0f2Qch.jpg"
 
 ---
 
-
-#### <i> Spoiler…it’s $10 million USD. </i>
-
+Flattening the curve. [WIRED](https://www.wired.com/story/whats-social-distancing-flattening-curve-covid-19-questions/).
 
 I heard a _fascinating_  podcast episode from Planet Money titled “[Lives Vs. The Economy](https://www.npr.org/2020/04/15/835571843/episode-991-lives-vs-the-economy)” recently, and it **blew my mind.**
 
 It addressed the question that has been asked more and more recently in the public discourse: “is it ever worth it to shut down the economy to save lives?”, or in other words, “Why can’t we open back up? I need to go back to work! I need a haircut!”.
-
-![](https://miro.medium.com/max/1400/0*T5IgKvTz8G0f2Qch.jpg)
-
-Flattening the curve. [WIRED](https://www.wired.com/story/whats-social-distancing-flattening-curve-covid-19-questions/).
 
 On the one hand, it takes nothing short of completely shutting down a country as per public health recommendations in order to contain the spread of the novel coronavirus and “flatten the curve”. Although the area under the curve, or in other words the cumulative total of COVID-19 cases is the same in both scenarios, a situation where a country does nothing to prevent unessential travel and social congregation would result in a situation where the healthcare system is entirely overwhelmed, and many more people would receive suboptimal care and potentially die. As new cases continue to climb day by day, yes, we definitely need to continue to physically distance and continue stay-at-home orders. Just because things are starting to look like they are getting better, doesn’t mean things are completely better. In fact, the most common reason patients stop taking their depression or anxiety medication, and then consequently become depressed and anxious again, is because they start to feel better! Going to social gatherings now would be irresponsible to the health of the greater society, and the healthcare workers putting their lives on the line for you. As members of a society, we have to sacrifice some personal freedoms when the benefit to society as a whole is so much bigger.
 

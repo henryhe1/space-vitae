@@ -3,16 +3,11 @@ title: "Knowing Your Limits is Strength, Not Weakness"
 date: 2020-05-17
 description: "Humility in medicine and in life"
 tags: [medicine, advice] 
-series: [medicine]
-images: ["https://miro.medium.com/max/1400/0*T5IgKvTz8G0f2Qch.jpg"]
+categories: [medicine]
+image: "https://miro.medium.com/max/1400/0*FsLTcfDuLh4VTKH6"
 
 ---
 
-
-#### <i> Humility in medicine and in life </i>
-
-
-![](https://miro.medium.com/max/1400/0*FsLTcfDuLh4VTKH6)
 
 Photo by [Jörg Angeli](https://unsplash.com/@joerga?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
@@ -34,7 +29,9 @@ In a [podcast interview](https://freakonomics.com/podcast/atul-gawande/), surgeo
 
 It is simply impossible to memorize 70,000 topics in detail, as well as keep up with new treatment guidelines, drugs and procedures. Instead, medical schools are teaching us how to retrieve reliable, up-to-date clinical information, and how to critically appraise research findings in order to make the best decisions for our patients with the available evidence. **In a sense, we are learning how to learn**. And we are learning that there will always be gaps in our medical knowledge, at any point in time—I believe knowing that limitation will make us better clinicians.
 
-![](https://miro.medium.com/max/1400/0*jdZ03cgNJ_RYBcTp)
+<!-- ![](https://miro.medium.com/max/1400/0*jdZ03cgNJ_RYBcTp) -->
+<img src="https://miro.medium.com/max/1400/0*jdZ03cgNJ_RYBcTp" width="50%" />
+
 
 Photo by [JC Gellidon](https://unsplash.com/@jcgellidon?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 

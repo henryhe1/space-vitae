@@ -15,6 +15,7 @@ noClasses = false
 [taxonomies]
 tag = "tags"
 series = "series"
+category = "categories"
 
 [[menu.main]]
     identifier = "home"

@@ -3,15 +3,10 @@ title: "We Can Hack Pain — But Should We?"
 date: 2020-06-14
 description: "The Opioid Crisis, Soylent, and Retaining Humanity"
 tags: [medicine] 
-series: [medicine]
-images: ["https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg"]
+categories: [medicine]
+image: "https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg"
 
 ---
-
-
-#### <i> The Opioid Crisis, Soylent, and Retaining Humanity </i>
-
-![](https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg)
 
 Red opium poppy plants. Photo by [Marten Bjork](https://unsplash.com/@martenbjork?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/opium-poppy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

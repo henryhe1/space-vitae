@@ -3,12 +3,10 @@ title: "Compassion vs. Burnout"
 date: 2020-05-03
 description: "A reminder of the limits of medicine"
 tags: [medicine, advice] 
-series: [medicine]
-images: ["https://miro.medium.com/max/966/0*l5YWMcnU2k1PqL8t.jpg"]
+categories: [medicine]
+image: "https://miro.medium.com/max/966/0*l5YWMcnU2k1PqL8t.jpg"
 
 ---
-
-#### <i> A reminder of the limits of medicine </i>
 
 Clinician burnout is a huge problem in medicine, and can lead to lower patient care quality, higher medical error risk, physician alcohol and drug abuse and addiction, and physician suicide ([source](https://www.aafp.org/fpm/2015/0900/p42.html)). In Canada, [30%](https://www.cma.ca/sites/default/files/2018-11/nph-survey-e.pdf) of residents and practicing physicians report experiencing burnout (emotional exhaustion and/or depersonalization) at least weekly. Just last week, an emergency physician working in the COVID-19 units in New York [died by suicide](https://www.nytimes.com/2020/04/27/nyregion/new-york-city-doctor-suicide-coronavirus.html) — now we don’t know the precise circumstances around her death, but based on the New York Times article, I think it is fair to say that stress from work likely played a role.
 

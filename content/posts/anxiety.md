@@ -3,18 +3,16 @@ title: "What if I told you that you could be your own ‘anxiety pill’?"
 date: 2020-04-23
 description: "Self-management of anxiety in a stressful world"
 tags: [medicine] 
-series: [medicine]
-images: ["https://images.unsplash.com/photo-1583598418288-843337a6df41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"]
+categories: [medicine]
+image: "https://images.unsplash.com/photo-1583598418288-843337a6df41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
 
 ---
 
-#### <i> Self-management of anxiety in a stressful world </i>
+Photo by [Aliaksei Lepik](https://unsplash.com/@vegfrt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 _Disclaimer: I am not a physician and this is not medical advice. It is just what I learned from a recent (virtual) psychiatry lecture. Please contact your family physician if you need medical care, this includes anything to do with mental illness._
 
-![](https://images.unsplash.com/photo-1583598418288-843337a6df41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)
 
-Photo by [Aliaksei Lepik](https://unsplash.com/@vegfrt?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 We had a lecture recently from [Dr. Jon Davine](https://psychiatry.mcmaster.ca/directory/bio/jon-davine), a dual psychiatry and family medicine trained physician. The talk was about anxiety disorders, which I wasn’t too familiar with before if I’m being honest. Anxiety disorders are defined by the DSM-V (sort of the diagnostic catalogue of mental illness) as “disorders that share features of excessive fear and anxiety and related behavioural disturbances.”
 

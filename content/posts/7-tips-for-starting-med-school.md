@@ -4,8 +4,8 @@ date: 2018-10-20T02:41:35-04:00
 draft: false
 slug: "7-tips-for-starting-med-school"
 series: [ "listicle", "medicine" ]
-tags: [ "advice", "medicine"]
-description: "Starting med school has been simultaneously the most exciting and the most overwhelming time of my life. It’s only been a month, and I already feel a lot of the responsibilities of “being a doctor”..."
+categories: [ "advice", "medicine"]
+image: https://images.unsplash.com/photo-1640117743090-93ce4f4450dd?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 ...#7 changed my LIFE!! Lol

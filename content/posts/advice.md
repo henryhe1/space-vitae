@@ -3,18 +3,13 @@ title: "Advice for students applying to medical school"
 date: 2020-04-29
 description: "Part of my story and what I learned from the process"
 tags: [medicine, advice] 
-series: [medicine]
-images: ["https://miro.medium.com/max/1400/0*nyF-nLQ8gTnNxcHq"]
+categories: [medicine]
+image: "https://miro.medium.com/max/1400/0*nyF-nLQ8gTnNxcHq"
 
 ---
-
-#### <i> Part of my story and what I learned from the process </i>
-
+Photo by [Vadim Sherbakov](https://unsplash.com/@madebyvadim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 I am a current second year medical student studying in Canada. Over the past couple years, I have had the pleasure to be able to give some advice and mentorship to friends in lower years. I personally reached out to many upper-year students for help when I was applying, so I am more than happy to give back. I recently had a call with a rising senior who was worried about the COVID-19 pandemic and how that might potentially affect his application. I decided to write down some of my two cents’ worth of responses, in case it may help others in the same position.
-
-![](https://miro.medium.com/max/1400/0*nyF-nLQ8gTnNxcHq)
-Photo by [Vadim Sherbakov](https://unsplash.com/@madebyvadim?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 **_Now that my summer plans are delayed or cancelled, I’m worried I won’t have enough time to work on my extracurriculars or develop strong relationships for potential reference letters._**
 
