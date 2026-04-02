@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on s p a c e</title>
-    <link>http://localhost:1313/tags/data/</link>
+    <link>https://henryhe.me/tags/data/</link>
     <description>Recent content in Data on s p a c e</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>🌊 Henry He 2026</copyright>
     <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://henryhe.me/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>COVID-19 and Climate Change</title>
-      <link>http://localhost:1313/posts/covid-19-and-climate-change/</link>
+      <link>https://henryhe.me/posts/covid-19-and-climate-change/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/covid-19-and-climate-change/</guid>
+      <guid>https://henryhe.me/posts/covid-19-and-climate-change/</guid>
       <description>&lt;p&gt;&lt;em&gt;Estimated reading time: 10 minutes… but there are pretty pictures!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I attended an online webinar the other day organized by the Canadian Association of Physicians for the Environment (&lt;a href=&#34;https://cape.ca/&#34;&gt;CAPE&lt;/a&gt;). The session was titled “COVID-19 and climate change - Where do we go from here?” and consisted of a panel of speakers, including physicians and other board members of the organization. I was interested because I had heard something about carbon emissions dropping ever since people have been staying home and the economy had been slowing down. I wouldn’t say I have a &lt;em&gt;passion&lt;/em&gt; for the environment, but I care about climate change and what inaction could mean for the Earth we are inheriting from our parents and the Earth we are leaving behind for our children. There are also many health implications. I heard this phrase once, &lt;strong&gt;“there are no healthy people on a dying planet”&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

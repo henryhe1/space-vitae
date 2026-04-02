@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>s p a c e</title>
-    <link>http://localhost:1313/</link>
+    <link>https://henryhe.me/</link>
     <description>Recent content on s p a c e</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>🌊 Henry He 2026</copyright>
     <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://henryhe.me/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
           <title>We Can Hack Pain — But Should We?</title>
-          <link>http://localhost:1313/posts/hack/</link>
+          <link>https://henryhe.me/posts/hack/</link>
           <pubDate>Sun, 14 Jun 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/hack/</guid>
+          <guid>https://henryhe.me/posts/hack/</guid>
           <description>&lt;h4 id=&#34;the-opioid-crisis-soylent-and-retaining-humanity&#34;&gt;&lt;i&gt; The Opioid Crisis, Soylent, and Retaining Humanity &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Red opium poppy plants. Photo by &lt;a href=&#34;https://unsplash.com/@martenbjork?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&#34;&gt;Marten Bjork&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/s/photos/opium-poppy?utm_source=unsplash&amp;amp;amp;utm_medium=referral&amp;amp;amp;utm_content=creditCopyText&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
@@ -24,9 +24,9 @@
         </item>
         <item>
           <title>Knowing Your Limits is Strength, Not Weakness</title>
-          <link>http://localhost:1313/posts/limits/</link>
+          <link>https://henryhe.me/posts/limits/</link>
           <pubDate>Sun, 17 May 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/limits/</guid>
+          <guid>https://henryhe.me/posts/limits/</guid>
           <description>&lt;h4 id=&#34;humility-in-medicine-and-in-life&#34;&gt;&lt;i&gt; Humility in medicine and in life &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://miro.medium.com/max/1400/0*FsLTcfDuLh4VTKH6&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Photo by &lt;a href=&#34;https://unsplash.com/@joerga?utm_source=medium&amp;amp;amp;utm_medium=referral&#34;&gt;Jörg Angeli&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com?utm_source=medium&amp;amp;amp;utm_medium=referral&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
@@ -34,34 +34,34 @@
         </item>
         <item>
           <title>Compassion vs. Burnout</title>
-          <link>http://localhost:1313/posts/compassion/</link>
+          <link>https://henryhe.me/posts/compassion/</link>
           <pubDate>Sun, 03 May 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/compassion/</guid>
+          <guid>https://henryhe.me/posts/compassion/</guid>
           <description>&lt;h4 id=&#34;a-reminder-of-the-limits-of-medicine&#34;&gt;&lt;i&gt; A reminder of the limits of medicine &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;Clinician burnout is a huge problem in medicine, and can lead to lower patient care quality, higher medical error risk, physician alcohol and drug abuse and addiction, and physician suicide (&lt;a href=&#34;https://www.aafp.org/fpm/2015/0900/p42.html&#34;&gt;source&lt;/a&gt;). In Canada, &lt;a href=&#34;https://www.cma.ca/sites/default/files/2018-11/nph-survey-e.pdf&#34;&gt;30%&lt;/a&gt; of residents and practicing physicians report experiencing burnout (emotional exhaustion and/or depersonalization) at least weekly. Just last week, an emergency physician working in the COVID-19 units in New York &lt;a href=&#34;https://www.nytimes.com/2020/04/27/nyregion/new-york-city-doctor-suicide-coronavirus.html&#34;&gt;died by suicide&lt;/a&gt; — now we don’t know the precise circumstances around her death, but based on the New York Times article, I think it is fair to say that stress from work likely played a role.&lt;/p&gt;</description>
         </item>
         <item>
           <title>The Dollar Value of a Human Life</title>
-          <link>http://localhost:1313/posts/econ/</link>
+          <link>https://henryhe.me/posts/econ/</link>
           <pubDate>Thu, 30 Apr 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/econ/</guid>
+          <guid>https://henryhe.me/posts/econ/</guid>
           <description>&lt;h4 id=&#34;spoilerits-10-million-usd&#34;&gt;&lt;i&gt; Spoiler…it’s $10 million USD. &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;I heard a &lt;em&gt;fascinating&lt;/em&gt;  podcast episode from Planet Money titled “&lt;a href=&#34;https://www.npr.org/2020/04/15/835571843/episode-991-lives-vs-the-economy&#34;&gt;Lives Vs. The Economy&lt;/a&gt;” recently, and it &lt;strong&gt;blew my mind.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;It addressed the question that has been asked more and more recently in the public discourse: “is it ever worth it to shut down the economy to save lives?”, or in other words, “Why can’t we open back up? I need to go back to work! I need a haircut!”.&lt;/p&gt;</description>
         </item>
         <item>
           <title>Advice for students applying to medical school</title>
-          <link>http://localhost:1313/posts/advice/</link>
+          <link>https://henryhe.me/posts/advice/</link>
           <pubDate>Wed, 29 Apr 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/advice/</guid>
+          <guid>https://henryhe.me/posts/advice/</guid>
           <description>&lt;h4 id=&#34;part-of-my-story-and-what-i-learned-from-the-process&#34;&gt;&lt;i&gt; Part of my story and what I learned from the process &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;I am a current second year medical student studying in Canada. Over the past couple years, I have had the pleasure to be able to give some advice and mentorship to friends in lower years. I personally reached out to many upper-year students for help when I was applying, so I am more than happy to give back. I recently had a call with a rising senior who was worried about the COVID-19 pandemic and how that might potentially affect his application. I decided to write down some of my two cents’ worth of responses, in case it may help others in the same position.&lt;/p&gt;</description>
         </item>
         <item>
           <title>What if I told you that you could be your own ‘anxiety pill’?</title>
-          <link>http://localhost:1313/posts/anxiety/</link>
+          <link>https://henryhe.me/posts/anxiety/</link>
           <pubDate>Thu, 23 Apr 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/anxiety/</guid>
+          <guid>https://henryhe.me/posts/anxiety/</guid>
           <description>&lt;h4 id=&#34;self-management-of-anxiety-in-a-stressful-world&#34;&gt;&lt;i&gt; Self-management of anxiety in a stressful world &lt;/i&gt;&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Disclaimer: I am not a physician and this is not medical advice. It is just what I learned from a recent (virtual) psychiatry lecture. Please contact your family physician if you need medical care, this includes anything to do with mental illness.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://images.unsplash.com/photo-1583598418288-843337a6df41?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1352&amp;amp;q=80&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
@@ -70,40 +70,40 @@
         </item>
         <item>
           <title>COVID-19 and Climate Change</title>
-          <link>http://localhost:1313/posts/covid-19-and-climate-change/</link>
+          <link>https://henryhe.me/posts/covid-19-and-climate-change/</link>
           <pubDate>Mon, 06 Apr 2020 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/posts/covid-19-and-climate-change/</guid>
+          <guid>https://henryhe.me/posts/covid-19-and-climate-change/</guid>
           <description>&lt;p&gt;&lt;em&gt;Estimated reading time: 10 minutes… but there are pretty pictures!&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;I attended an online webinar the other day organized by the Canadian Association of Physicians for the Environment (&lt;a href=&#34;https://cape.ca/&#34;&gt;CAPE&lt;/a&gt;). The session was titled “COVID-19 and climate change - Where do we go from here?” and consisted of a panel of speakers, including physicians and other board members of the organization. I was interested because I had heard something about carbon emissions dropping ever since people have been staying home and the economy had been slowing down. I wouldn’t say I have a &lt;em&gt;passion&lt;/em&gt; for the environment, but I care about climate change and what inaction could mean for the Earth we are inheriting from our parents and the Earth we are leaving behind for our children. There are also many health implications. I heard this phrase once, &lt;strong&gt;“there are no healthy people on a dying planet”&lt;/strong&gt;.&lt;/p&gt;</description>
         </item>
         <item>
           <title>7 Tips for Starting Med School</title>
-          <link>http://localhost:1313/posts/7-tips-for-starting-med-school/</link>
+          <link>https://henryhe.me/posts/7-tips-for-starting-med-school/</link>
           <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
-          <guid>http://localhost:1313/posts/7-tips-for-starting-med-school/</guid>
+          <guid>https://henryhe.me/posts/7-tips-for-starting-med-school/</guid>
           <description>&lt;p&gt;&amp;hellip;#7 changed my LIFE!! Lol&lt;/p&gt;
 &lt;p&gt;Starting med school has been simultaneously the most exciting and the most overwhelming time of my life. It’s only been a month, and I already feel a lot of the responsibilities of “being a doctor”. Like Shakespeare wrote in Twelfth Night, it’s kind of been thrust upon me, all of a sudden. Starting the Problem Based Learning (PBL) model here at Mac was a little analogous to being thrown into the deep end, where at least before there were familiar creatures like marked exams and projects—have now been replaced by a void of vague tutorial objectives, optional anatomy labs, and “professional competency”. It was very different from everything I was used to in terms of education, and combined with the friction of moving to a new city with new roommates, was and still is difficult. That being said, I decided to get a little reflective and to come up with a few tips I would have given myself a month ago, or to any new medical student:&lt;/p&gt;</description>
         </item>
         <item>
           <title>about</title>
-          <link>http://localhost:1313/about/</link>
+          <link>https://henryhe.me/about/</link>
           <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/about/</guid>
+          <guid>https://henryhe.me/about/</guid>
           <description>&lt;p&gt;Hello internet wanderer! The idea of a static blog was inspired by my good friend Edward &lt;a href=&#34;http://edho.me&#34;&gt;(edho.me)&lt;/a&gt; and serves as a space for my thoughts and reflections. I started it in order to write more, because I like writing and it helps me process life a bit better. Hopefully it is inspiring or interesting to you as well.&lt;/p&gt;
 &lt;p&gt;I am a resident doctor in Canada, so many of the posts will probably be medicine-related. Other potential topics include tech, music, and fitness, and I&amp;rsquo;ll try my best to organize them with tags for easy navigation. Thank you for joining me on this journey.&lt;/p&gt;</description>
         </item>
         <item>
           <title>music</title>
-          <link>http://localhost:1313/music/</link>
+          <link>https://henryhe.me/music/</link>
           <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/music/</guid>
+          <guid>https://henryhe.me/music/</guid>
           <description>&lt;p&gt;So I like making music. I play piano, electric guitar, and sing, and I make my own beats too. I don&amp;rsquo;t have the greatest voice nor the greatest musical talent, but I love making covers of my favourite songs, because it&amp;rsquo;s a chance to experience them on a deeper level. Some of my biggest influences are Daniel Caesar, Rex Orange County, John Mayer, Still Woozy, Radiohead, and the Foo Fighters, in no particular order.&lt;/p&gt;</description>
         </item>
         <item>
           <title>PedsVitals 🧸❤️</title>
-          <link>http://localhost:1313/pedsvitals/</link>
+          <link>https://henryhe.me/pedsvitals/</link>
           <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-          <guid>http://localhost:1313/pedsvitals/</guid>
+          <guid>https://henryhe.me/pedsvitals/</guid>
           <description>&lt;h3 id=&#34;the-story&#34;&gt;The Story&lt;/h3&gt;
 &lt;p&gt;I&amp;rsquo;m Henry, a medical student in Hamilton, Ontario, and I&amp;rsquo;m currently about a third of the way through clerkship. I&amp;rsquo;ve always been a little intimidated by pediatrics because it feels like kids are an entirely different species (like little aliens 👽). They are affected by different diseases, require different medication dosages, and their vitals are completely different compared to adults. Developmental milestones were also extremely hard for me to remember just because of how many milestones and categories there were. As I was starting my pediatrics rotation, I remember struggling to learn all the numbers and ranges that varied between age and sometimes gender and height too, and thinking to myself how I could possibly function as a clerk on the wards and in the emergency department.&lt;/p&gt;</description>
         </item>
