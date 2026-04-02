@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Series on s p a c e</title>
-        <link>http://localhost:1313/series/</link>
+        <link>https://henryhe.me/series/</link>
         <description>Recent content in Series on s p a c e</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Henry He 🌊</copyright>
-        <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 14 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://henryhe.me/series/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Medicine</title>
-            <link>http://localhost:1313/series/medicine/</link>
+            <link>https://henryhe.me/series/medicine/</link>
             <pubDate>Sun, 14 Jun 2020 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/series/medicine/</guid>
+            <guid>https://henryhe.me/series/medicine/</guid>
             <description></description>
         </item><item>
             <title>Listicle</title>
-            <link>http://localhost:1313/series/listicle/</link>
+            <link>https://henryhe.me/series/listicle/</link>
             <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
-            <guid>http://localhost:1313/series/listicle/</guid>
+            <guid>https://henryhe.me/series/listicle/</guid>
             <description></description>
         </item></channel>
 </rss>
