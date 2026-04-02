@@ -16,7 +16,7 @@ SortBy         = "default"
 [sidebar]
     compact = false
     subtitle = "a blog"
-    avatar = "img/henry.png"
+    avatar = "img/henry.jpg"
 
 [article]
     headingAnchor = true
