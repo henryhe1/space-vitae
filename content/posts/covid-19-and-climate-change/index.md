@@ -1,10 +1,9 @@
 ---
 title: "COVID-19 and Climate Change"
 date: 2020-04-06
-description: "I attended an online webinar the other day organized by the Canadian Association of Physicians for the Environment (CAPE). The session was titled “COVID-19 and climate change - Where do we go from here?”... "
 tags: [medicine, data, climate] 
-series: [medicine]
-image: "img/covidEnvironment/greenspaceToronto.png"
+categories: [medicine]
+image: "greenspaceToronto.png"
 
 ---
 
@@ -18,16 +17,13 @@ I wanted to share some of my takeaways from the event. The thing that I think is
 
 An environmental consulting organization from Guelph called eMERGE put together some interesting data. They plotted Ontario’s hourly electricity demand for the last week of March, and compared it with the usage data during the same week during the years 2005-2016. It’s fascinating to see how the usage is fairly consistent at the start of the week, but then drops in anticipation and following the closure of all non-essential workplaces in Ontario by Wednesday March 25.
 
-
-<img src="/img/covidEnvironment/hydro.png" alt="Image 1" />
+![](hydro.png)
 
 Source: [https://emergeguelph.ca/how-our-hydro-footprint-is-changing-in-a-covid-19-world/](https://emergeguelph.ca/how-our-hydro-footprint-is-changing-in-a-covid-19-world/)
 
 Another thing you’ve probably noticed are the unbelievablely low gas prices. Oil hasn’t been this cheap since the early 2000s! Besides the small fact that people aren’t driving to work anymore, this is also superimposed on top of a [price war between Saudi Arabia and Russia](https://www.cnbc.com/2020/04/01/5-charts-that-explain-the-saudi-arabia-russia-oil-price-war-so-far.html), who are both _increasing_ their crude oil production since an OPEC (Organization of Petroleum Exporting Countries) deal to lower output had expired at the end of March. This has crippled the oil markets, with the price of oil plummeting **more than 50%** since Jan 2020.
 
-
-![alt_text](/img/covidEnvironment/crudeoil.png)
-
+![alt_text](crudeoil.png)
 
 Source: [https://tradingeconomics.com/commodity/crude-oil](https://tradingeconomics.com/commodity/crude-oil) as of April 6, 2020 09:53AM
 
@@ -39,14 +35,14 @@ The first one was published by Kardan et al. in 2015 in the Nature’s _Scientif
 
 Side note: I was wondering why they chose to look at the _perception_ of health as an outcome, and here’s what they say: “Subjective self-rated health perception was chosen as one of the health outcomes because self-perception of health has been found to be related to morbidity and mortality rates and is a strong predictor of health status and outcomes in both clinical and community settings”. Interesting! I can’t say I understand the math behind how they got those exact numbers for income and age, but they are powerful, objective measures!
 
-![alt_text](/img/covidEnvironment/greenspaceToronto.png)
+![alt_text](greenspaceToronto.png)
 
 
 Data was constructed from Geographical Information System (GIS) polygon data set ‘Forest and Land Cover’, which from a Google search is simply available [here](https://open.toronto.ca/dataset/forest-and-land-cover/). Cool!
 
 The second study Dr. Lem mentioned was done by Taylor & Kuo in 2008, published in the Journal of Attention Disorders. The study was called “[Children With Attention Deficits Concentrate Better After Walk in the Park](http://www.agnesvandenberg.nl/adhd.pdf)”, and the result is right there in the title. They enrolled 17 children aged 7 to 12 years old who are clinically diagnosed with ADHD and had them go through 3 guided 20-minute walks through a city park, downtown, or residential area. The walks were 1 week apart, and children were randomized to the order of walks. After each walk, concentration was measured using the Digit Span Backwards test (repeating lists of numbers backwards). The result? They found that the children with ADHD had the highest concentration after the walk in the park, and the effect size was **comparable to those reported for the ADHD medication methylphenidate, otherwise known as Ritalin!**
 
-![alt_text](/img/covidEnvironment/ADHDstudy.png)
+![alt_text](ADHDstudy.png)
 
 
 DSB = Digit Span Backwards test
@@ -57,16 +53,16 @@ In their 2019 paper, “[Urban nature experiences reduce stress in the context o
 
 Anyway, because of these phenomena, which is different for each individual, the researchers needed to separate the effect of the nature pill from the diurnal cycles in cortisol and amylase (which are relatively stable for each individual). Instead of taking multiple saliva samples throughout the day to establish individual patient baselines, they were able to extrapolate the diurnal trajectory based on pre-nature pill samples and accommodating for time of day (I have to admit, I don’t fully understand this part). And the results? They found that a single “nature experience” (of 10 minutes or more) reduced salivary cortisol by 21%/h and reduced salivary amylase by 28%/h. The optimal “dose”? 20-30 minutes. That’s all it takes, **half an hour of being outside**! A quick walk around the block, or even as part of your commute.
 
-![alt_text](/img/covidEnvironment/diurnal.png)
+![alt_text](diurnal.png)
 
 
-![alt_text](/img/covidEnvironment/cortisol1.png)
+![alt_text](cortisol1.png)
 
 NE = nature experience
 
 And finally, the last paper was another Nature Scientific Reports article written by White et al. in 2019, entitled “[Spending at least 120 minutes a week in nature is associated with good health and wellbeing](https://www.nature.com/articles/s41598-019-44097-3)”. Couldn’t get clearer than that. They took the survey responses of just under 20000 people in the UK and looked at relationships between weekly recreational nature contact (defined as contact with parks, woodlands, and beaches) and self-reported health and well-being. They controlled for confounders such as residential greenspace (which we know has a positive effect, from paper #1!). The results? Compared to no nature contact in the past week, people who had at least 120 minutes (2 hours) of nature contact were 1.6 times as likely to report better health, and 1.2 times as likely to report higher well-being. And as we know from study #1, self-perception of health has a strong correlation to actual morbidity and mortality, as well as health status. Positive associations peaked between 200-300 minutes per week, with (interestingly) no further gain. The pattern was consistent across people of older age and with chronic health conditions. Another key finding was that it didn’t matter how the 120 minutes was achieved, whether in one sitting (ironic phrase), or spread out across the week.
 
-![alt_text](/img/covidEnvironment/weekNature.png)
+![alt_text](weekNature.png)
 
 
 #### **TL;DR. So what does this all mean?**
@@ -94,7 +90,7 @@ In 2015 the Rockefeller Foundation and the Lancet medical journal formed a commi
 
 
 
-![alt_text](/img/covidEnvironment/planetaryhealth.png)
+![alt_text](planetaryhealth.png)
 
 
 
