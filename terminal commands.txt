@@ -1,17 +1,40 @@
-hugo serve -D
-hugo -d ../henryhe1.github.io/
-cd ../henryhe1.github.io/
-git status 
-git add .
-git commit -m "msg"
-git push
+Here's a clean reference card:
 
-change pedsvitals html to 
+Writing & Publishing a New Post
+1. Create the post
+bashcd /Users/henry/Documents/GitHub/space-vitae
+Either a simple flat file:
+bashtouch content/posts/my-new-post.md
+Or a page bundle (needed if you want local images):
+bashmkdir content/posts/my-new-post
+touch content/posts/my-new-post/index.md
+# copy any images into this folder too
+2. Write the front matter
+yaml---
+title: "My New Post"
+date: 2026-04-01
+description: "A short description shown on the card"
+tags:
+    - medicine
+    - health
+categories:
+    - Medicine
+image: "https://images.unsplash.com/photo-xxx"  # or local: cover.jpg if page bundle
+---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="refresh" content="0; URL='https://pedsvitals.square.site/'" />
-</head>
+Your content here...
+3. Preview locally
+bashhugo server
+Open http://localhost:1313 and check it looks right.
+4. Commit to space-vitae
+bashgit add .
+git commit -m "Add new post: my-new-post"
+git push origin master
+5. Deploy to henryhe.me
+bash./deploy.sh
+Notes
 
-</html>
+Images in markdown: use <img src="/img/yourimage.png" /> for static images
+Images as thumbnail: use external URL or page bundle local image
+If deploy fails, check cd public && git remote -v points to henryhe1.github.io
+Token expires! If push fails, update with git remote set-url origin https://henryhe1:<token>@github.com/henryhe1/...

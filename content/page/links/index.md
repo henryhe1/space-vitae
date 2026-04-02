@@ -15,11 +15,11 @@ links:
   - title: Soundcloud
     description: Musical covers
     website: https://soundcloud.com/honreii
-    image: https://cdn.prod.website-files.com/62a0a0168756b795debc65bc/686adc61c66c4f12c6234fe4_Layer-2.png
+    image: https://img.freepik.com/premium-vector/soundcloud-logo_578229-231.jpg?semt=ais_hybrid&w=740&q=80
   - title: YouTube
     description: Musical covers
     website: https://www.youtube.com/mcpaulish
-    image: https://cdn.mos.cms.futurecdn.net/R4DgSdP6erUexko5KuX6UF-1920-80.jpg
+    image: https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small_2x/youtube-logo-youtube-icon-transparent-free-png.png
 
 
 comments: false
