@@ -114,7 +114,7 @@ SortBy         = "default"
     provider = "disqus"
 
     [comments.disqusjs]
-        shortname  = ""
+        shortname = "spaceblog-1"
         apiUrl     = ""
         apiKey     = ""
         admin      = ""
