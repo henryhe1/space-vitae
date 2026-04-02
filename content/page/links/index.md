@@ -20,6 +20,10 @@ links:
     description: Musical covers
     website: https://www.youtube.com/mcpaulish
     image: https://static.vecteezy.com/system/resources/thumbnails/018/930/572/small_2x/youtube-logo-youtube-icon-transparent-free-png.png
+  - title: Wedding
+    description: Vibe-coded wedding website with personalized RSVPs
+    website: https://www.henryhe.me/wedding
+    image: https://henryhe.me/wedding/images/other16.jpg
 
 
 comments: false
