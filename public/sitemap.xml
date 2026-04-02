@@ -75,6 +75,8 @@
   </url><url>
     <loc>http://localhost:1313/page/archives/</loc>
   </url><url>
+    <loc>http://localhost:1313/page/links/</loc>
+  </url><url>
     <loc>http://localhost:1313/music/</loc>
   </url><url>
     <loc>http://localhost:1313/page/</loc>

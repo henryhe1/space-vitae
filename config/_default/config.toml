@@ -50,29 +50,12 @@ category = "categories"
         icon = "search"
 
 [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags"
+    identifier = "links"
+    name = "Links"
+    url = "/page/links"
     weight = 5
     [menu.main.params]
-        icon = "tag"
-
-[[menu.main]]
-    identifier = "music"
-    name = "Music"
-    url = "/music"
-    weight = 6
-    [menu.main.params]
-        icon = "link"
-
-[[menu.main]]
-    identifier = "pedsvitals"
-    name = "Medvitals"
-    url = "https://www.medvitals.ca"
-    weight = 7
-    [menu.main.params]
-        icon = "hash"
-        newTab = true
+    icon = "link"
 
 [outputs]
     home = ["HTML", "RSS"]
