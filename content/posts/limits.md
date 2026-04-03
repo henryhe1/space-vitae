@@ -2,8 +2,10 @@
 title: "Knowing Your Limits is Strength, Not Weakness"
 date: 2020-05-17
 description: "Humility in medicine and in life"
-tags: [medicine, advice] 
-categories: [medicine]
+tags: 
+    - medicine
+categories:
+    - Advice
 image: "https://miro.medium.com/max/1400/0*FsLTcfDuLh4VTKH6"
 
 ---

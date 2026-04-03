@@ -2,8 +2,13 @@
 title: "The Dollar Value of a Human Life"
 date: 2020-04-30
 description: "Spoiler…it’s $10 million USD."
-tags: [medicine, economics, policy] 
-categories: [medicine]
+tags: 
+    - medicine
+    - ethics
+    - policy
+    - data
+categories:
+    - Opinion
 image: "https://miro.medium.com/max/1400/0*T5IgKvTz8G0f2Qch.jpg"
 
 ---

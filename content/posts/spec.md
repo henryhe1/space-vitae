@@ -2,8 +2,10 @@
 title: "Cap­i­tal­ism, cul­ture and chronic pain"
 date: 2021-07-14
 description: "Un­eth­i­cal mar­ket­ing and our de­sire for in­stant grat­i­fi­ca­tion cre­ated the opi­oid cri­sis"
-tags: [medicine] 
-categories: [medicine]
+tags:
+    - medicine
+categories:
+    - Essay
 image: "https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/469522568_8917255594979355_6369137901598830667_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=13d280&_nc_ohc=xCcgAszgUSoQ7kNvwGsnz6z&_nc_oc=AdrAVwiXgT6H6ZPSapbNbYB6dWnwjq-LSwwAzi1q61UrLQfQ_ZthGNUWP7PPa6u4AMbPltgHvAf_POnqd-8GJAlj&_nc_zt=23&_nc_ht=scontent-yyz1-1.xx&_nc_gid=S9t5zx1GPfzBME9-VHrL-g&_nc_ss=7a3a8&oh=00_Af03JL2Bd7qG0GpdNXthgG7u6kxQuDoNnanjf9AwxUnT8Q&oe=69D58C44"
 
 ---

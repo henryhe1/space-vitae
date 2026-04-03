@@ -8,10 +8,10 @@
     <loc>https://henryhe.me/categories/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/</loc>
+    <loc>https://henryhe.me/categories/essay/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/categories/medicine/</loc>
+    <loc>https://henryhe.me/</loc>
     <lastmod>2021-07-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://henryhe.me/tags/medicine/</loc>
@@ -26,10 +26,16 @@
     <loc>https://henryhe.me/posts/hack/</loc>
     <lastmod>2020-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://henryhe.me/tags/ethics/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://henryhe.me/categories/opinion/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://henryhe.me/posts/draftingdocs/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/tags/advice/</loc>
+    <loc>https://henryhe.me/categories/advice/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://henryhe.me/posts/limits/</loc>
@@ -38,7 +44,7 @@
     <loc>https://henryhe.me/posts/compassion/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/tags/economics/</loc>
+    <loc>https://henryhe.me/tags/data/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://henryhe.me/tags/policy/</loc>
@@ -53,9 +59,6 @@
     <loc>https://henryhe.me/posts/anxiety/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/tags/ethics/</loc>
-    <lastmod>2020-04-10T10:24:45-04:00</lastmod>
-  </url><url>
     <loc>https://henryhe.me/posts/residentsppe/</loc>
     <lastmod>2020-04-10T10:24:45-04:00</lastmod>
   </url><url>
@@ -65,16 +68,13 @@
     <loc>https://henryhe.me/posts/covid-19-and-climate-change/</loc>
     <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/tags/data/</loc>
-    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://henryhe.me/posts/7-tips-for-starting-med-school/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/categories/advice/</loc>
+    <loc>https://henryhe.me/series/listicle/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url><url>
-    <loc>https://henryhe.me/series/listicle/</loc>
+    <loc>https://henryhe.me/categories/medicine/</loc>
     <lastmod>2018-10-20T02:41:35-04:00</lastmod>
   </url><url>
     <loc>https://henryhe.me/series/medicine/</loc>

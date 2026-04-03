@@ -2,8 +2,10 @@
 title: "Advice for students applying to medical school"
 date: 2020-04-29
 description: "Part of my story and what I learned from the process"
-tags: [medicine, advice] 
-categories: [medicine]
+tags: 
+    - medicine
+categories: 
+    - Advice
 image: "https://miro.medium.com/max/1400/0*nyF-nLQ8gTnNxcHq"
 
 ---

@@ -2,8 +2,11 @@
 title: "Should Residents Be Expected to Work Without PPE?"
 slug: "residentsppe"
 date: 2020-04-10T10:24:45-04:00
-tags: [ethics, medicine]
-categories: [medicine]
+tags: 
+  - ethics
+  - medicine
+categories:
+  - Opinion
 image: "ppe-cover.jpg"
 
 links:

@@ -2,8 +2,10 @@
 title: "What if I told you that you could be your own ‘anxiety pill’?"
 date: 2020-04-23
 description: "Self-management of anxiety in a stressful world"
-tags: [medicine] 
-categories: [medicine]
+tags:
+    - medicine
+categories: 
+    - Advice
 image: "https://images.unsplash.com/photo-1583598418288-843337a6df41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
 
 ---

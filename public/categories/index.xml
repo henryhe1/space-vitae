@@ -7,16 +7,28 @@
         <language>en-us</language>
         <copyright>Henry He</copyright>
         <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://henryhe.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-            <title>Medicine</title>
-            <link>https://henryhe.me/categories/medicine/</link>
+            <title>Essay</title>
+            <link>https://henryhe.me/categories/essay/</link>
             <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-            <guid>https://henryhe.me/categories/medicine/</guid>
+            <guid>https://henryhe.me/categories/essay/</guid>
+            <description></description>
+        </item><item>
+            <title>Opinion</title>
+            <link>https://henryhe.me/categories/opinion/</link>
+            <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+            <guid>https://henryhe.me/categories/opinion/</guid>
             <description></description>
         </item><item>
             <title>Advice</title>
             <link>https://henryhe.me/categories/advice/</link>
-            <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
+            <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
             <guid>https://henryhe.me/categories/advice/</guid>
+            <description></description>
+        </item><item>
+            <title>Medicine</title>
+            <link>https://henryhe.me/categories/medicine/</link>
+            <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
+            <guid>https://henryhe.me/categories/medicine/</guid>
             <description></description>
         </item></channel>
 </rss>

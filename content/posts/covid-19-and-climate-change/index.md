@@ -1,8 +1,12 @@
 ---
 title: "COVID-19 and Climate Change"
 date: 2020-04-06
-tags: [medicine, data, climate] 
-categories: [medicine]
+tags:
+    - medicine
+    - data
+    - climate
+categories:
+    - Essay
 image: "greenspaceToronto.png"
 
 ---
