@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Field notes</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://henryhe.me/categories/</link>
         <description>Recent content in Categories on Field notes</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Henry He</copyright>
-        <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://henryhe.me/categories/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Medicine</title>
-            <link>http://localhost:1313/categories/medicine/</link>
+            <link>https://henryhe.me/categories/medicine/</link>
             <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-            <guid>http://localhost:1313/categories/medicine/</guid>
+            <guid>https://henryhe.me/categories/medicine/</guid>
             <description></description>
         </item><item>
             <title>Advice</title>
-            <link>http://localhost:1313/categories/advice/</link>
+            <link>https://henryhe.me/categories/advice/</link>
             <pubDate>Sat, 20 Oct 2018 02:41:35 -0400</pubDate>
-            <guid>http://localhost:1313/categories/advice/</guid>
+            <guid>https://henryhe.me/categories/advice/</guid>
             <description></description>
         </item></channel>
 </rss>
