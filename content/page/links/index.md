@@ -8,6 +8,9 @@ links:
     description: Singer-songwriter by the name 'honrei'
     website: https://open.spotify.com/artist/1x8tpgReWouiy2RkjN31Bt?si=gGHuqY91QDCGRknP42oBfA
     image: https://upload.wikimedia.org/wikipedia/commons/7/74/Spotify_App_Logo.svg
+  - title: ORCID
+    description: Published peer-reviewed research 
+    website: https://orcid.org/0000-0003-4803-6195
   - title: Medium
     description: Essays and poetry
     website: https://medium.com/@henryhe_
