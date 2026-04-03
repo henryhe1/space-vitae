@@ -1,10 +1,9 @@
 baseURL = "https://henryhe.me/"
 languageCode = "en-us"
-title = "s p a c e"
+title = "Field Notes"
 theme = "hugo-theme-stack"
-paginate = 5
 enableEmoji = true
-copyright = "Henry He 🌊"
+copyright = "Henry He"
 
 [markup.goldmark.renderer]
 unsafe = true
