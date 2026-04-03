@@ -1,10 +1,12 @@
 ---
 title: "7 Tips for Starting Med School"
 date: 2018-10-20T02:41:35-04:00
-draft: false
 slug: "7-tips-for-starting-med-school"
-series: [ "listicle", "medicine" ]
-categories: [ "advice", "medicine"]
+description: "Unsolicited advice"
+tags: 
+    - medicine
+categories:
+    - Advice
 image: https://images.unsplash.com/photo-1640117743090-93ce4f4450dd?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 

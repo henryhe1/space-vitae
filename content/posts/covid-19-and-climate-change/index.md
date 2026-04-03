@@ -1,5 +1,6 @@
 ---
 title: "COVID-19 and Climate Change"
+description: "Where do we go from here?"
 date: 2020-04-06
 tags:
     - medicine
@@ -10,9 +11,6 @@ categories:
 image: "greenspaceToronto.png"
 
 ---
-
-_Estimated reading time: 10 minutes… but there are pretty pictures!_
-
 I attended an online webinar the other day organized by the Canadian Association of Physicians for the Environment ([CAPE](https://cape.ca/)). The session was titled “COVID-19 and climate change - Where do we go from here?” and consisted of a panel of speakers, including physicians and other board members of the organization. I was interested because I had heard something about carbon emissions dropping ever since people have been staying home and the economy had been slowing down. I wouldn’t say I have a _passion_ for the environment, but I care about climate change and what inaction could mean for the Earth we are inheriting from our parents and the Earth we are leaving behind for our children. There are also many health implications. I heard this phrase once, **“there are no healthy people on a dying planet”**. 
 
 I wanted to share some of my takeaways from the event. The thing that I think is most effective at conveying the impact of climate change is data, and elegant associations made from that data. But maybe that’s just me.
