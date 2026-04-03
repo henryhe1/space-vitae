@@ -4,6 +4,7 @@ title = "Field notes"
 theme = "hugo-theme-stack"
 enableEmoji = true
 copyright = "Henry He"
+disablePathToLower = false
 
 [markup.goldmark.renderer]
 unsafe = true

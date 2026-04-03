@@ -1,5 +1,6 @@
 ---
 title: "Should Residents Be Expected to Work Without PPE?"
+slug: "residentsppe"
 date: 2020-04-10T10:24:45-04:00
 description: "An ethical dilemma"
 tags: [ethics, medicine]
