@@ -15,7 +15,7 @@ SortBy         = "default"
 
 [sidebar]
     compact = false
-    subtitle = "From the margins"
+    subtitle = "from the margins"
     avatar = "img/henry.jpg"
 
 [article]

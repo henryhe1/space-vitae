@@ -11,7 +11,7 @@ menu:
 
 Welcome to my corner of the internet. The idea of a static blog was inspired by my good friend Edward [(edho.me)](http://edho.me) and serves as a space for my thoughts and reflections. 
 
-Despite the best of intentions, posts here will inevitably be sporadic. Topics will include medicine, music, why things are the way they are, and what the point of this all might be. 
+Despite the best of intentions, posts here will inevitably be sporadic. Topics will include musings on medicine, music, why things are the way they are, and what the point of this all might be. 
 
 
 ### The history of henryhe.me

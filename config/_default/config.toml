@@ -1,6 +1,6 @@
 baseURL = "https://henryhe.me/"
 languageCode = "en-us"
-title = "Field Notes"
+title = "Field notes"
 theme = "hugo-theme-stack"
 enableEmoji = true
 copyright = "Henry He"
