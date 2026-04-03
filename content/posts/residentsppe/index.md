@@ -8,7 +8,7 @@ categories: [medicine]
 image: "ppe-cover.jpg"
 
 links:
-  - title: "#NoPPENoMe — A plea for residents to unite against being put at unreasonable risk."
+  - title: "#NoPPENoMe — A plea for resident physicians to unite against being put at unreasonable risk."
     website: https://www.reddit.com/r/Residency/comments/fvfn42/noppenome_a_plea_for_residents_to_unite_against/
   - title: "Dr. Ming Lin was terminated from Bellingham hospital after speaking out about better protections for patients and staff"
     website: https://www.nytimes.com/2020/04/01/opinion/coronavirus-doctors-protective-equipment.html?fbclid=IwAR3zr8_No7TBamrkQDeucEtLfpVTtNFy9AT4TdLf4pNBUof-0PV5Unx2DxI
@@ -69,6 +69,23 @@ _Disclaimer: although residents in almost every system experience power imbalanc
 
 These are the facts. This is the situation. But you already knew this from the news. What really prompted this post was this [Reddit post](https://www.reddit.com/r/Residency/comments/fvr94q/ucsf_fresno_sent_this_out_to_their_im_residents/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) in r/residency. 
 
+<img src="/img/residentsppe/ucsf.png" width = 50%>
+
+The post is in r/Residency, with the title "UCSF Fresno sent this out to their IM residents apparently" with a screenshot of an email with the following bullet points:
+
+_* If you are at work, we expect you to perform all of the duties of a physician, which includes responding to patient sin emergent situations.
+* For HCP at higher risk (i.e. older, comorbid lung/heart dz, immunosuppressed, or pregnancy [which is questionable]), we will make reasonable accommodations to minimize your exposure to COVID-19 patients. This may include moving COVID-19 patients to other teams. This may not be possible as we have a surge in COVID-19 cases in the valley.
+* We cannot remove the obligation to repsond to and manage decompensating or unstable patients if you choose to be involved in patient care. Every faculty I have surveyed agrees that they would save a dying patient regardless of PPE availability, COVID status, or physician risk status. If you do not have time to call your attending for backup and avoid exposure, you are still responsible for that patient. If that is a risk that you cannot accept, we will need to discuss options, such as a temporary leave of absence. 
+* Please reach out to me personally to let me know about any personal circumstances that we should be aware of. 
+* This policy may change as the local situation evolves.
+
+The poster added further context: "Obtained this from my sister who has former classmates there". You can imagine some of the comments from residents:
+* "Refusing unsafe work is not unprofessional - in fact it is your professional obligation to do so. It is not abandoning a patient - it is protecting yourself, your staff, your community and all the other patients you could infect. If there's not enough PPE for you to do your job safely then your bosses and society have declared your job not important enough to be done. If somebody needs to be blamed for any negative patient outcome, it's not you. It's admin who's to blame."
+* "If a program truly believes its residents will go on to have meaningful careers with large, long-term societal benefits (as one would hope every program should), it could never produce a statement like this. Either a profound lack of foresight or a profound lack of respect."
+* "lol my dude even hedges that they may throw immunosuppressed residents into the grinder if things get bad. This program truly does not care about its residents"
+* "That “or pregnancy [which is questionable]” sounds so despicable"
+
+
 **Update**: this segment ran on [CBS this morning](https://www.cbsnews.com/video/medical-community-battles-pandemic-despite-mounting-fear-and-deaths/) (April 10), and is a much stronger representation of the coercion and exploitation of residents. I will mainly comment on this video, however, it was the reddit post above that originally triggered my desire to write this post. Watch to see the comments made by Dr. Laura Forese, CEO of NY Presbyterian Hospital—one of the largest in the city—to the medical staff.
 
 <br>
@@ -77,7 +94,7 @@ These are the facts. This is the situation. But you already knew this from the n
  -->
 
 <video width="620" height="349" controls style="display:block; margin-left:auto; margin-right:auto;">
-    <source src= "/img/residentsPPE/cbsVideo.mp4">
+    <source src= "/img/residentsppe/cbsVideo.mp4">
 </video>
 
 <br>
@@ -193,7 +210,7 @@ I do believe that medicine carries certain “special obligations to society” 
 
 <br>
 
-<img src="/img/residentsPPE/image3.png" width = 50%>
+<img src="/img/residentsppe/image3.png" width = 50%>
 
 <br>
 
