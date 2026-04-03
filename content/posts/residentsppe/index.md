@@ -2,7 +2,6 @@
 title: "Should Residents Be Expected to Work Without PPE?"
 slug: "residentsppe"
 date: 2020-04-10T10:24:45-04:00
-description: "An ethical dilemma, a hot take"
 tags: [ethics, medicine]
 categories: [medicine]
 image: "ppe-cover.jpg"
@@ -69,17 +68,18 @@ _Disclaimer: although residents in almost every system experience power imbalanc
 
 These are the facts. This is the situation. But you already knew this from the news. What really prompted this post was this [Reddit post](https://www.reddit.com/r/Residency/comments/fvr94q/ucsf_fresno_sent_this_out_to_their_im_residents/?utm_source=share&utm_medium=ios_app&utm_name=iossmf) in r/residency. 
 
-<img src="/img/residentsppe/ucsf.png" width = 50%>
+The post is in r/Residency, with the title "UCSF Fresno sent this out to their IM residents apparently" with a screenshot of an email:
 
-The post is in r/Residency, with the title "UCSF Fresno sent this out to their IM residents apparently" with a screenshot of an email with the following bullet points:
+![](ucsf.png)
 
-_* If you are at work, we expect you to perform all of the duties of a physician, which includes responding to patient sin emergent situations.
+<!-- _* If you are at work, we expect you to perform all of the duties of a physician, which includes responding to patient sin emergent situations.
 * For HCP at higher risk (i.e. older, comorbid lung/heart dz, immunosuppressed, or pregnancy [which is questionable]), we will make reasonable accommodations to minimize your exposure to COVID-19 patients. This may include moving COVID-19 patients to other teams. This may not be possible as we have a surge in COVID-19 cases in the valley.
 * We cannot remove the obligation to repsond to and manage decompensating or unstable patients if you choose to be involved in patient care. Every faculty I have surveyed agrees that they would save a dying patient regardless of PPE availability, COVID status, or physician risk status. If you do not have time to call your attending for backup and avoid exposure, you are still responsible for that patient. If that is a risk that you cannot accept, we will need to discuss options, such as a temporary leave of absence. 
 * Please reach out to me personally to let me know about any personal circumstances that we should be aware of. 
-* This policy may change as the local situation evolves.
+* This policy may change as the local situation evolves. -->
 
-The poster added further context: "Obtained this from my sister who has former classmates there". You can imagine some of the comments from residents:
+The poster added further context: "Obtained this from my sister who has former classmates there". It reads like an email from the program director, who is Dr. Steven Tringali, DO. You can imagine some of the comments from residents:
+
 * "Refusing unsafe work is not unprofessional - in fact it is your professional obligation to do so. It is not abandoning a patient - it is protecting yourself, your staff, your community and all the other patients you could infect. If there's not enough PPE for you to do your job safely then your bosses and society have declared your job not important enough to be done. If somebody needs to be blamed for any negative patient outcome, it's not you. It's admin who's to blame."
 * "If a program truly believes its residents will go on to have meaningful careers with large, long-term societal benefits (as one would hope every program should), it could never produce a statement like this. Either a profound lack of foresight or a profound lack of respect."
 * "lol my dude even hedges that they may throw immunosuppressed residents into the grinder if things get bad. This program truly does not care about its residents"
@@ -94,7 +94,7 @@ The poster added further context: "Obtained this from my sister who has former c
  -->
 
 <video width="620" height="349" controls style="display:block; margin-left:auto; margin-right:auto;">
-    <source src= "/img/residentsppe/cbsVideo.mp4">
+    <source src= "cbsVideo.mp4">
 </video>
 
 <br>
@@ -208,11 +208,7 @@ Do not let the deaths of hundreds of healthcare workers be forgotten.”
 
 I do believe that medicine carries certain “special obligations to society” as outlined in the [Hippocratic Oath](https://en.wikipedia.org/wiki/Hippocratic_Oath), an oath of ethics traditionally sworn by graduating medical students as they become new physicians. There are things we know we have to sacrifice, including but not limited to sleep, time with our family, our 20’s and early 30’s to name a few. There’s also risks to the doctors’ health, such as the risk of acquiring infectious diseases even with the proper PPE, that are reasonable and expected by both the profession and society. However, I don’t believe that it is reasonable to expect doctors to put their lives at significant, extra-ordinary (in the literal sense of the word) risk that is outside their standard of practice, simply due to their profession of choice. No one should be expected to do that, regardless of urgency. **Does a firefighter rush into a burning building without a protective suit?** **Does a police officer rush in to save the hostage without any gear?** Why is there this romantic idea of martyrdom for physicians? So yes, doctors do take on more risks and responsibilities than the average civilian when they enter the profession. But that doesn’t mean they signed up to sacrifice their lives. It’s not a good look when institutions use residents’ altruism and compassion against them, in order to pressure them into accepting unsafe work conditions. 
 
-<br>
-
-<img src="/img/residentsppe/image3.png" width = 50%>
-
-<br>
+<img src="image3.png" width = 50%>
 
 _"The AAMC must have caught wind of residents talking about a strike. —“I remind myself that the only thing scarier than contracting COVID-19 is abandoning my team and my patients in this hour of great need.” —No, don't let them guilt you into working in unsafe conditions."
 [Source: Reddit](https://www.reddit.com/r/Residency/comments/fw9el0/the_aamc_must_have_caught_wind_of_residents/)_ 
@@ -276,7 +272,7 @@ Thank you for the friends and mentors who have helped proofread, critique, and c
 
 **We cannot act as if not having adequate PPE is normal or okay.**
 
-It is important to advocate for the safety of healthcare workers on the frontlines. It's also a good idea for you medical students to reflect and keep track of your emotions during this time, and note how health leaders are responding to this crisis.
+It is important to advocate for the safety of healthcare workers on the frontlines. It's also a good idea for you medical students to reflect and keep track of your emotions during this time, and note how health leaders are responding to this crisis."
 
 {{</quote>}}
 
