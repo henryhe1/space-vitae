@@ -5,6 +5,7 @@ date: 2020-04-10T10:24:45-04:00
 tags: 
   - ethics
   - medicine
+  - policy
 categories:
   - Opinion
 image: "ppe-cover.jpg"
