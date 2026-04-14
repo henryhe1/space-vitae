@@ -6,7 +6,7 @@ tags:
     - medicine
 categories:
     - Essay
-image: "https://henryhe.me/img/thespec.jpg"
+image: "thespec.jpg"
     
 ---
 _As published in [The Hamilton Spectator](https://thespec.pressreader.com/article/281844351641751?fbclid=IwY2xjawQ8sGBleHRuA2FlbQIxMABicmlkETFrd2tQdzJIRGZxMW9QcUhsc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHodhu3-7yii34yngMtf1dAvnqjKogFZkYT_HVudlSZ5SY5VVtzFuL5Cg-CqX_aem_CzP_0Q6fXARQT_stamAYGQ) newspaper, Opinion_
