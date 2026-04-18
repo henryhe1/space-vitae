@@ -4,6 +4,10 @@ links:
     description: Medical reference card online store
     website: https://www.medvitals.ca
     image: https://459c9540a08e71bd3ae8.cdn6.editmysite.com/uploads/b/459c9540a08e71bd3ae8a9440269d954061956a698174c07453130fe23e5c32f/DSC_3141-3_1623846612.jpg?width=2400&optimize=medium
+  - title: Greener Gases
+    description: Greenhouse gas emissions in anesthesiology QI project
+    website: https://anesthesia.healthsci.mcmaster.ca/research/greener-gases/
+    image: https://henryhe.me/greenergases/assets/img/figure.png  
   - title: Spotify
     description: Singer-songwriter by the name 'honrei'
     website: https://open.spotify.com/artist/1x8tpgReWouiy2RkjN31Bt?si=gGHuqY91QDCGRknP42oBfA
