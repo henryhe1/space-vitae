@@ -27,7 +27,7 @@ He was traded from the Dallas Mavericks back in February 2025 in a trade he didn
 
 Maybe his nervous system was activated in 'fight or flight mode', Stefan posits. As a result, maybe his deep hip flexors including his psoas muscles were chronically tense and tilted his pelvis forward, lengthening his hamstrings and putting them at a higher risk of injury at baseline. Maybe they've been building up tension with every step he took, until a big enough disruption finally overwhelmed the ability of the muscle fibres to keep it all together, and the muscle tore. 
 
-![](image-2.png) ![](image.png)
+![](image-2.png) ![](image-1.png)
 
 {{< quote author="Stefan Duvivier">}}
 "Your hamstring doesn't just randomly tear. It tears because the tissue has been under siege for months from a nervous system that never got to calm down."
