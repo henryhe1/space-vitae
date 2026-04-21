@@ -4,12 +4,16 @@ date: 2021-07-14
 description: "Un­eth­i­cal mar­ket­ing and our de­sire for in­stant grat­i­fi­ca­tion cre­ated the opi­oid cri­sis"
 tags:
     - medicine
+    - pain
+    - psychology
 categories:
     - Essay
 image: "thespec.jpg"
     
 ---
 _As published in [The Hamilton Spectator](https://thespec.pressreader.com/article/281844351641751?fbclid=IwY2xjawQ8sGBleHRuA2FlbQIxMABicmlkETFrd2tQdzJIRGZxMW9QcUhsc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHodhu3-7yii34yngMtf1dAvnqjKogFZkYT_HVudlSZ5SY5VVtzFuL5Cg-CqX_aem_CzP_0Q6fXARQT_stamAYGQ) newspaper, Opinion_
+
+For the original unabridge version, click [here](https://henryhe.me/posts/hack)
 
 North Amer­i­cans are the high­est opi­oid users per capita in the world.
 

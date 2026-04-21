@@ -5,6 +5,7 @@ description: "Luka Doncic and The Mind-Body Connection"
 tags: 
     - medicine
     - pain
+    - psychology
 categories:
     - Essay
 image: "https://www.mensjournal.com/.image/NDI6MDAwMDAwMDAxMTQ3NjQ4/nba-los-angeles-lakers-at-oklahoma-city-thunder.jpg?io=1&profile=w1536&ar=16-9"

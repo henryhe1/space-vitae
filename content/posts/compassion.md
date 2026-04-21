@@ -4,8 +4,10 @@ date: 2020-05-03
 description: "A reminder of the limits of medicine"
 tags:
     - medicine
+    - psychology
 categories:
     - Opinion
+    - Advice
 image: "https://miro.medium.com/max/966/0*l5YWMcnU2k1PqL8t.jpg"
 
 ---

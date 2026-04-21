@@ -4,6 +4,8 @@ date: 2020-06-14
 description: "The Opioid Crisis, Soylent, and Retaining Humanity"
 tags:
     - medicine
+    - pain
+    - psychology
 categories: 
     - Essay
 image: "https://miro.medium.com/max/2000/1*BeeYKglgt60nvwCG-MhNlw.jpeg"
