@@ -2,13 +2,19 @@ Here's a clean reference card:
 
 Writing & Publishing a New Post
 1. Create the post
-bashcd /Users/henry/Documents/GitHub/space-vitae
+bash
+cd /Users/henry/Documents/GitHub/space-vitae
+
 Either a simple flat file:
-bashtouch content/posts/my-new-post.md
+
+touch content/posts/my-new-post.md
+
 Or a page bundle (needed if you want local images):
-bashmkdir content/posts/my-new-post
+mkdir content/posts/my-new-post
 touch content/posts/my-new-post/index.md
+
 # copy any images into this folder too
+
 2. Write the front matter
 yaml---
 title: "My New Post"
@@ -24,10 +30,10 @@ image: "https://images.unsplash.com/photo-xxx"  # or local: cover.jpg if page bu
 
 Your content here...
 3. Preview locally
-bashhugo server
+hugo server
 Open http://localhost:1313 and check it looks right.
 4. Commit to space-vitae
-bashgit add .
+git add .
 git commit -m "Add new post: my-new-post"
 git push origin master
 5. Deploy to henryhe.me
