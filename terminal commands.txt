@@ -32,12 +32,17 @@ Your content here...
 3. Preview locally
 hugo server
 Open http://localhost:1313 and check it looks right.
+
 4. Commit to space-vitae
 git add .
 git commit -m "Add new post: my-new-post"
 git push origin master
+
 5. Deploy to henryhe.me
-bash./deploy.sh
+bash
+./deploy.sh
+
+
 Notes
 
 Images in markdown: use <img src="/img/yourimage.png" /> for static images
