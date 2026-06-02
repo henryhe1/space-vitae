@@ -1,0 +1,103 @@
+{{/* 
+  layouts/partials/footer/custom.html
+  
+  Drop this file into your Hugo site at that path.
+  It injects visitor tracking on single article pages only.
+
+  To also show a reader count in the article footer, set
+  SHOW_READER_COUNT = true below. Leave it false to keep
+  tracking backend-only (recommended while getting started).
+*/}}
+
+{{ if eq .Kind "page" }}
+<script>
+(function () {
+  // ─── Config ────────────────────────────────────────────────────────────────
+  var WORKER_URL   = "https://space-vitae-tracking.hello-henryhe.workers.dev";
+  var SHOW_COUNT   = true; // set to true to render the reader count on the page
+  var SCROLL_THRESHOLD = 0.9; // fire "read" when 90% of article is visible
+
+  // ─── Session ID ────────────────────────────────────────────────────────────
+  // One random ID per browser session. Cleared when the tab closes.
+  // No cookies, no fingerprinting.
+  var SESSION_KEY = "sv_session";
+  var sessionId = sessionStorage.getItem(SESSION_KEY);
+  if (!sessionId) {
+    sessionId = Math.random().toString(36).slice(2) + Date.now().toString(36);
+    sessionStorage.setItem(SESSION_KEY, sessionId);
+  }
+
+  // Slug: use the URL pathname, strip trailing slash
+  var slug = location.pathname.replace(/\/$/, "") || "/";
+
+  // ─── Fire a tracking event ─────────────────────────────────────────────────
+  function track(event) {
+    fetch(WORKER_URL + "/track", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug: slug, event: event, sessionId: sessionId }),
+      // keepalive so the request survives page unloads (not needed here but good practice)
+      keepalive: true,
+    }).catch(function () {
+      // Silently swallow errors — never break the reading experience
+    });
+  }
+
+  // ─── Track pageview on load ────────────────────────────────────────────────
+  track("view");
+
+  // ─── Track "read" when reader reaches the bottom ──────────────────────────
+  // Target: the article footer element Stack renders at the end of each post.
+  // Adjust the selector if your Stack version uses a different class.
+  var articleFooter =
+    document.querySelector(".article-footer") ||
+    document.querySelector("footer.article-footer") ||
+    document.querySelector(".post-footer");
+
+  if (articleFooter && "IntersectionObserver" in window) {
+    var readFired = false;
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting && !readFired) {
+            readFired = true;
+            track("read");
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: SCROLL_THRESHOLD }
+    );
+    observer.observe(articleFooter);
+  }
+
+  // ─── Optional: render reader count in the footer ───────────────────────────
+  if (SHOW_COUNT) {
+    var footer =
+      document.querySelector(".article-footer") ||
+      document.querySelector("footer.article-footer");
+
+    if (footer) {
+      var counter = document.createElement("p");
+      counter.className = "sv-reader-count";
+      counter.style.cssText = "font-size:1.4rem;opacity:0.55;margin-top:1rem;";
+      counter.textContent = "";
+      footer.appendChild(counter);
+
+      fetch(WORKER_URL + "/counts/" + slug.replace(/^\//, ""))
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data.reads > 0) {
+            counter.textContent =
+              data.reads + (data.reads === 1 ? " person" : " people") +
+              " read this to the end";
+          }
+        })
+        .catch(function () {
+          counter.remove();
+        });
+    }
+  }
+})();
+</script>
+{{ end }}
