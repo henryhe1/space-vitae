@@ -362,7 +362,10 @@
   const urlInput = document.getElementById('worker-url');
 
   const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved) urlInput.value = saved;
+  if (saved) {
+    urlInput.value = saved;
+    load();
+  }
 
   function workerUrl() {
     return urlInput.value.trim().replace(/\/$/, '');
@@ -389,7 +392,7 @@
 
       const results = await Promise.all(
         slugs.map(slug =>
-          fetch(base + '/counts/' + slug.replace(/^\//, ''))
+          fetch(base + '/counts/' + (slug === '/' ? 'root' : slug.replace(/^\//, '')))
             .then(r => r.json())
             .catch(() => ({ slug, views: 0, reads: 0 }))
         )
@@ -443,18 +446,21 @@
   }
 
   function renderTable() {
-    const sorted = [...allData].sort((a, b) => {
-      const av = a[sortKey], bv = b[sortKey];
-      if (typeof av === 'string') return sortDir * av.localeCompare(bv);
-      return sortDir * (av - bv);
-    });
+    const vitae = [...allData].filter(d => d.slug.startsWith('/posts/'))
+    const brain = [...allData].filter(d => !d.slug.startsWith('/posts/'))
 
-    const maxViews = Math.max(...allData.map(d => d.views), 1);
+    const sorted = (arr) => arr.sort((a, b) => {
+      const av = a[sortKey], bv = b[sortKey]
+      if (typeof av === 'string') return sortDir * av.localeCompare(bv)
+      return sortDir * (av - bv)
+    })
 
-    document.getElementById('table-body').innerHTML = sorted.map(d => {
-      const pillClass = d.rate >= 60 ? 'pill-high' : d.rate >= 30 ? 'pill-mid' : 'pill-low';
-      const barPct = Math.round((d.views / maxViews) * 100);
-      const displaySlug = d.slug.replace(/^\/posts\//, '');
+    const maxViews = Math.max(...allData.map(d => d.views), 1)
+
+    const renderRows = (arr, showReads) => sorted(arr).map(d => {
+      const pillClass = d.rate >= 60 ? 'pill-high' : d.rate >= 30 ? 'pill-mid' : 'pill-low'
+      const barPct = Math.round((d.views / maxViews) * 100)
+      const displaySlug = (d.slug || '').replace(/^\/(posts\/)?/, '')
       return `
         <tr>
           <td class="slug" title="${d.slug}">${displaySlug}</td>
@@ -464,10 +470,27 @@
               <span class="bar-label">${d.views.toLocaleString()}</span>
             </div>
           </td>
-          <td class="num">${d.reads.toLocaleString()}</td>
-          <td><span class="pill ${pillClass}">${d.rate}%</span></td>
-        </tr>`;
-    }).join('');
+          ${showReads ? `
+            <td class="num">${d.reads.toLocaleString()}</td>
+            <td><span class="pill ${pillClass}">${d.rate}%</span></td>
+          ` : ''}
+        </tr>`
+    }).join('')
+
+    document.getElementById('table-body').innerHTML = `
+      <tr>
+        <td colspan="4" style="padding:0.75rem 1.25rem 0.25rem;font-size:0.75rem;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:0.5px solid var(--border);">
+          space-vitae · henryhe.me
+        </td>
+      </tr>
+      ${renderRows(vitae, true)}
+      <tr>
+        <td colspan="4" style="padding:1rem 1.25rem 0.25rem;font-size:0.75rem;font-weight:500;color:var(--muted);text-transform:uppercase;letter-spacing:0.05em;border-bottom:0.5px solid var(--border);border-top:0.5px solid var(--border);">
+          pall brain · brain.henryhe.me
+        </td>
+      </tr>
+      ${renderRows(brain, false)}
+    `
   }
 
   function renderChart() {
