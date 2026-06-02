@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>space-vitae analytics</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f7f6f3;
+    --surface: #ffffff;
+    --border: rgba(0,0,0,0.1);
+    --text: #1a1a18;
+    --muted: #6b6a65;
+    --accent: #3c3489;
+    --accent-light: #eeedfe;
+    --success: #0f6e56;
+    --success-light: #e1f5ee;
+    --bar-views: #afa9ec;
+    --bar-reads: #3c3489;
+    --radius: 10px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a18;
+      --surface: #26261f;
+      --border: rgba(255,255,255,0.1);
+      --text: #f0efe8;
+      --muted: #9e9d97;
+      --accent: #afa9ec;
+      --accent-light: #26215c;
+      --success: #5dcaa5;
+      --success-light: #04342c;
+      --bar-views: #534ab7;
+      --bar-reads: #cecbf6;
+    }
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  header h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  header p {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 0.25rem;
+  }
+
+  .summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .metric {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+  }
+
+  .metric-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.4rem;
+  }
+
+  .metric-value {
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .metric-value.accent { color: var(--accent); }
+  .metric-value.success { color: var(--success); }
+
+  .card {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-header {
+    padding: 1rem 1.25rem 0.75rem;
+    border-bottom: 0.5px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+
+  .legend-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+
+  .chart-wrap {
+    padding: 1.25rem;
+    position: relative;
+    height: 300px;
+  }
+
+  .table-wrap {
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+  }
+
+  thead th {
+    padding: 0.65rem 1.25rem;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 0.5px solid var(--border);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  thead th:hover { color: var(--text); }
+  thead th.sorted { color: var(--accent); }
+
+  tbody tr {
+    border-bottom: 0.5px solid var(--border);
+    transition: background 0.1s;
+  }
+
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--bg); }
+
+  td {
+    padding: 0.75rem 1.25rem;
+    white-space: nowrap;
+  }
+
+  td.slug {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--muted);
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+  .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 99px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .pill-high { background: var(--success-light); color: var(--success); }
+  .pill-mid  { background: var(--accent-light);  color: var(--accent);  }
+  .pill-low  { background: var(--bg); color: var(--muted); border: 0.5px solid var(--border); }
+
+  .bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .bar-bg {
+    flex: 1;
+    height: 6px;
+    background: var(--bg);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    height: 100%;
+    border-radius: 99px;
+    background: var(--accent);
+    transition: width 0.4s ease;
+  }
+
+  .bar-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    min-width: 36px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .state {
+    padding: 3rem;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .refresh-btn {
+    background: none;
+    border: 0.5px solid var(--border);
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    color: var(--muted);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .refresh-btn:hover { background: var(--bg); color: var(--text); }
+
+  .config-bar {
+    background: var(--surface);
+    border: 0.5px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .config-bar label { font-size: 0.8rem; color: var(--muted); }
+
+  .config-bar input {
+    flex: 1;
+    min-width: 260px;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+    border: 0.5px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: monospace;
+  }
+
+  .config-bar input:focus { outline: none; border-color: var(--accent); }
+
+  .sort-arrow { opacity: 0.4; font-size: 0.7rem; }
+  .sorted .sort-arrow { opacity: 1; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>space-vitae · analytics</h1>
+  <p id="last-updated">—</p>
+</header>
+
+<div class="config-bar">
+  <label for="worker-url">Worker URL</label>
+  <input id="worker-url" type="text" placeholder="https://space-vitae-tracking.hello-henryhe.workers.dev" />
+  <button class="refresh-btn" onclick="load()">Load data</button>
+</div>
+
+<div class="summary">
+  <div class="metric">
+    <div class="metric-label">Total posts tracked</div>
+    <div class="metric-value accent" id="s-posts">—</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Total views</div>
+    <div class="metric-value" id="s-views">—</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Total reads</div>
+    <div class="metric-value" id="s-reads">—</div>
+  </div>
+  <div class="metric">
+    <div class="metric-label">Avg completion</div>
+    <div class="metric-value success" id="s-rate">—</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <span class="card-title">Views vs reads by post</span>
+    <div class="legend">
+      <span><span class="legend-dot" style="background:var(--bar-views)"></span>Views</span>
+      <span><span class="legend-dot" style="background:var(--bar-reads)"></span>Reads</span>
+    </div>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="barChart" role="img" aria-label="Bar chart comparing views and reads per post"></canvas>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-header">
+    <span class="card-title">All posts</span>
+    <button class="refresh-btn" onclick="load()">↻ Refresh</button>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th onclick="sortBy('slug')" id="th-slug">Post <span class="sort-arrow">↕</span></th>
+          <th onclick="sortBy('views')" id="th-views" class="num sorted">Views <span class="sort-arrow">↓</span></th>
+          <th onclick="sortBy('reads')" id="th-reads" class="num">Reads <span class="sort-arrow">↕</span></th>
+          <th onclick="sortBy('rate')" id="th-rate">Completion <span class="sort-arrow">↕</span></th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <tr><td colspan="4" class="state">Enter your Worker URL above and click Load data</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+  const STORAGE_KEY = 'sv_worker_url';
+  let allData = [];
+  let sortKey = 'views';
+  let sortDir = -1;
+  let barChart = null;
+
+  const urlInput = document.getElementById('worker-url');
+
+  const saved = localStorage.getItem(STORAGE_KEY);
+  if (saved) urlInput.value = saved;
+
+  function workerUrl() {
+    return urlInput.value.trim().replace(/\/$/, '');
+  }
+
+  async function load() {
+    const base = workerUrl();
+    if (!base) { alert('Paste your Worker URL first.'); return; }
+    localStorage.setItem(STORAGE_KEY, base);
+
+    document.getElementById('table-body').innerHTML =
+      '<tr><td colspan="4" class="state">Loading…</td></tr>';
+
+    try {
+      const res = await fetch(base + '/slugs');
+      if (!res.ok) throw new Error('Could not reach /slugs endpoint');
+      const { slugs } = await res.json();
+
+      if (!slugs || slugs.length === 0) {
+        document.getElementById('table-body').innerHTML =
+          '<tr><td colspan="4" class="state">No data yet — visit some posts to start tracking.</td></tr>';
+        return;
+      }
+
+      const results = await Promise.all(
+        slugs.map(slug =>
+          fetch(base + '/counts/' + slug.replace(/^\//, ''))
+            .then(r => r.json())
+            .catch(() => ({ slug, views: 0, reads: 0 }))
+        )
+      );
+
+      allData = results.map(d => ({
+        slug: d.slug,
+        views: d.views || 0,
+        reads: d.reads || 0,
+        rate: d.views > 0 ? Math.round((d.reads / d.views) * 100) : 0,
+      }));
+
+      updateSummary();
+      renderTable();
+      renderChart();
+
+      document.getElementById('last-updated').textContent =
+        'Last updated ' + new Date().toLocaleTimeString();
+
+    } catch (e) {
+      document.getElementById('table-body').innerHTML =
+        '<tr><td colspan="4" class="state">Error: ' + e.message + '</td></tr>';
+    }
+  }
+
+  function updateSummary() {
+    const totalViews = allData.reduce((a, d) => a + d.views, 0);
+    const totalReads = allData.reduce((a, d) => a + d.reads, 0);
+    const avgRate = totalViews > 0 ? Math.round((totalReads / totalViews) * 100) : 0;
+
+    document.getElementById('s-posts').textContent = allData.length;
+    document.getElementById('s-views').textContent = totalViews.toLocaleString();
+    document.getElementById('s-reads').textContent = totalReads.toLocaleString();
+    document.getElementById('s-rate').textContent = avgRate + '%';
+  }
+
+  function sortBy(key) {
+    if (sortKey === key) {
+      sortDir *= -1;
+    } else {
+      sortKey = key;
+      sortDir = key === 'slug' ? 1 : -1;
+    }
+    document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
+    const th = document.getElementById('th-' + key);
+    if (th) {
+      th.classList.add('sorted');
+      th.querySelector('.sort-arrow').textContent = sortDir === -1 ? '↓' : '↑';
+    }
+    renderTable();
+  }
+
+  function renderTable() {
+    const sorted = [...allData].sort((a, b) => {
+      const av = a[sortKey], bv = b[sortKey];
+      if (typeof av === 'string') return sortDir * av.localeCompare(bv);
+      return sortDir * (av - bv);
+    });
+
+    const maxViews = Math.max(...allData.map(d => d.views), 1);
+
+    document.getElementById('table-body').innerHTML = sorted.map(d => {
+      const pillClass = d.rate >= 60 ? 'pill-high' : d.rate >= 30 ? 'pill-mid' : 'pill-low';
+      const barPct = Math.round((d.views / maxViews) * 100);
+      const displaySlug = d.slug.replace(/^\/posts\//, '');
+      return `
+        <tr>
+          <td class="slug" title="${d.slug}">${displaySlug}</td>
+          <td class="num">
+            <div class="bar-wrap">
+              <div class="bar-bg"><div class="bar-fill" style="width:${barPct}%"></div></div>
+              <span class="bar-label">${d.views.toLocaleString()}</span>
+            </div>
+          </td>
+          <td class="num">${d.reads.toLocaleString()}</td>
+          <td><span class="pill ${pillClass}">${d.rate}%</span></td>
+        </tr>`;
+    }).join('');
+  }
+
+  function renderChart() {
+    const top = [...allData].sort((a, b) => b.views - a.views).slice(0, 12);
+    const labels = top.map(d => d.slug.replace(/^\/posts\//, ''));
+
+    const isDark = matchMedia('(prefers-color-scheme: dark)').matches;
+    const gridColor = isDark ? 'rgba(255,255,255,0.07)' : 'rgba(0,0,0,0.06)';
+    const tickColor = isDark ? '#9e9d97' : '#6b6a65';
+
+    const viewsColor  = isDark ? '#534ab7' : '#afa9ec';
+    const readsColor  = isDark ? '#cecbf6' : '#3c3489';
+
+    if (barChart) barChart.destroy();
+
+    const wrapEl = document.querySelector('.chart-wrap');
+    wrapEl.style.height = Math.max(300, labels.length * 44 + 60) + 'px';
+
+    barChart = new Chart(document.getElementById('barChart'), {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [
+          {
+            label: 'Views',
+            data: top.map(d => d.views),
+            backgroundColor: viewsColor,
+            borderRadius: 4,
+          },
+          {
+            label: 'Reads',
+            data: top.map(d => d.reads),
+            backgroundColor: readsColor,
+            borderRadius: 4,
+          },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              afterBody: (items) => {
+                const d = top[items[0].dataIndex];
+                return 'Completion: ' + d.rate + '%';
+              }
+            }
+          }
+        },
+        scales: {
+          x: {
+            grid: { color: gridColor },
+            ticks: { color: tickColor, precision: 0 },
+          },
+          y: {
+            grid: { display: false },
+            ticks: { color: tickColor },
+          },
+        },
+      },
+    });
+  }
+</script>
+</body>
+</html>
